@@ -1,0 +1,5019 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2014-06-11" modified="2022-10-12" version="19" xmlns="http://uniprot.org/uniprot">
+  <accession>Z9JUX4</accession>
+  <name>Z9JUX4_9MICO</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="1">Ferritin-like domain-containing protein</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="2" type="ORF">BF93_15470</name>
+  </gene>
+  <organism evidence="2 3">
+    <name type="scientific">Brachybacterium phenoliresistens</name>
+    <dbReference type="NCBI Taxonomy" id="396014"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinobacteria</taxon>
+      <taxon>Micrococcales</taxon>
+      <taxon>Dermabacteraceae</taxon>
+      <taxon>Brachybacterium</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="2 3" key="1">
+    <citation type="submission" date="2014-02" db="EMBL/GenBank/DDBJ databases">
+      <title>Genome sequence of Brachybacterium phenoliresistens strain W13A50.</title>
+      <authorList>
+        <person name="Wang X."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="2 3">W13A50</strain>
+    </source>
+  </reference>
+  <comment type="caution">
+    <text evidence="2">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="JDYK01000006">
+    <property type="protein sequence ID" value="EWS81576.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_038371649.1">
+    <property type="nucleotide sequence ID" value="NZ_KK069991.1"/>
+  </dbReference>
+  <dbReference type="STRING" id="396014.BF93_15470"/>
+  <dbReference type="EnsemblBacteria" id="EWS81576">
+    <property type="protein sequence ID" value="EWS81576"/>
+    <property type="gene ID" value="BF93_15470"/>
+  </dbReference>
+  <dbReference type="PATRIC" id="fig|396014.3.peg.1438"/>
+  <dbReference type="eggNOG" id="ENOG502ZB5C">
+    <property type="taxonomic scope" value="Bacteria"/>
+  </dbReference>
+  <dbReference type="HOGENOM" id="CLU_1026335_0_0_11"/>
+  <dbReference type="OrthoDB" id="644190at2"/>
+  <dbReference type="Proteomes" id="UP000023067">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0016491">
+    <property type="term" value="F:oxidoreductase activity"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.10.620.20">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR009078">
+    <property type="entry name" value="Ferritin-like_SF"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR012348">
+    <property type="entry name" value="RNR-like"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF47240">
+    <property type="entry name" value="SSF47240"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <keyword evidence="3" id="KW-1185">Reference proteome</keyword>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="Google" id="UnProtein"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="EWS81576.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="Proteomes" id="UP000023067"/>
+    </source>
+  </evidence>
+  <sequence length="261" mass="29569" checksum="C099DDAC094FE495" modified="2014-06-11" version="1">MAFDLDRFAESSQPVAWADLDFDSFDSQPLDEQTLRSLRYMCDVEYHTSCFLRDMLVTPSHRQEDVGGFMTMWNREEFWHGEALAAVLARHGILVDYDELKAKRVKLGWQSALGPMKQSVLTSLAGTDFVAVHMVWGAANELSAVAAYRRLSQMTSHPALSPLLKRIAQQETRHVAFYTTQGRERLEASAKARSIVRLILSRVWRPVGSGMMDDSEVRHVMGHLFEGRAEDLDSLDHRIQKLPGLEGLTIFRNAFARMGIA</sequence>
+</entry>
+<entry dataset="TrEMBL" created="2014-06-11" modified="2021-06-02" version="27" xmlns="http://uniprot.org/uniprot">
+  <accession>Z9JUU1</accession>
+  <name>Z9JUU1_9MICO</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="5">Ferritin</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="5" type="ORF">BF93_15135</name>
+  </gene>
+  <organism evidence="5 6">
+    <name type="scientific">Brachybacterium phenoliresistens</name>
+    <dbReference type="NCBI Taxonomy" id="396014"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinobacteria</taxon>
+      <taxon>Micrococcales</taxon>
+      <taxon>Dermabacteraceae</taxon>
+      <taxon>Brachybacterium</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="5 6" key="1">
+    <citation type="submission" date="2014-02" db="EMBL/GenBank/DDBJ databases">
+      <title>Genome sequence of Brachybacterium phenoliresistens strain W13A50.</title>
+      <authorList>
+        <person name="Wang X."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="5 6">W13A50</strain>
+    </source>
+  </reference>
+  <comment type="similarity">
+    <text evidence="1 2">Belongs to the Dps family.</text>
+  </comment>
+  <comment type="caution">
+    <text evidence="5">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="JDYK01000006">
+    <property type="protein sequence ID" value="EWS81531.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_038371590.1">
+    <property type="nucleotide sequence ID" value="NZ_KK069991.1"/>
+  </dbReference>
+  <dbReference type="STRING" id="396014.BF93_15135"/>
+  <dbReference type="EnsemblBacteria" id="EWS81531">
+    <property type="protein sequence ID" value="EWS81531"/>
+    <property type="gene ID" value="BF93_15135"/>
+  </dbReference>
+  <dbReference type="PATRIC" id="fig|396014.3.peg.1373"/>
+  <dbReference type="eggNOG" id="COG0783">
+    <property type="taxonomic scope" value="Bacteria"/>
+  </dbReference>
+  <dbReference type="HOGENOM" id="CLU_098183_1_3_11"/>
+  <dbReference type="OrthoDB" id="1742631at2"/>
+  <dbReference type="Proteomes" id="UP000023067">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0008199">
+    <property type="term" value="F:ferric iron binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0016722">
+    <property type="term" value="F:oxidoreductase activity, acting on metal ions"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd01043">
+    <property type="entry name" value="DPS"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.20.1260.10">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR002177">
+    <property type="entry name" value="DPS_DNA-bd"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR023188">
+    <property type="entry name" value="DPS_DNA-bd_CS"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR012347">
+    <property type="entry name" value="Ferritin-like"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR009078">
+    <property type="entry name" value="Ferritin-like_SF"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR008331">
+    <property type="entry name" value="Ferritin_DPS_dom"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR42932">
+    <property type="entry name" value="PTHR42932"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF00210">
+    <property type="entry name" value="Ferritin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PIRSF" id="PIRSF005900">
+    <property type="entry name" value="Dps"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PRINTS" id="PR01346">
+    <property type="entry name" value="HELNAPAPROT"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF47240">
+    <property type="entry name" value="SSF47240"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS00818">
+    <property type="entry name" value="DPS_1"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="inferred from homology"/>
+  <keyword evidence="6" id="KW-1185">Reference proteome</keyword>
+  <feature type="domain" description="Ferritin" evidence="4">
+    <location>
+      <begin position="33"/>
+      <end position="170"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Disordered" evidence="3">
+    <location>
+      <begin position="1"/>
+      <end position="20"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="ARBA" id="ARBA00009497"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="2">
+    <source>
+      <dbReference type="RuleBase" id="RU003875"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="3">
+    <source>
+      <dbReference type="SAM" id="MobiDB-lite"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000259" key="4">
+    <source>
+      <dbReference type="Pfam" id="PF00210"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="5">
+    <source>
+      <dbReference type="EMBL" id="EWS81531.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="6">
+    <source>
+      <dbReference type="Proteomes" id="UP000023067"/>
+    </source>
+  </evidence>
+  <sequence length="175" mass="18813" checksum="74BBAA091729F76C" modified="2014-06-11" version="1">MNESVTVPEPSGAATTRPENAESGFLASDALAKNLQAVLADLTALQLVGKQAHWNIVGPNFRDLHLNLDEVVDIARASGDDVAERMRALHATPDGRPAVVAEQSSLAEFPEGEILTHDAIDLMTAAIEATVGTMRSVHDEVDEADPTSADILHGIIEKLEQQAWFISAETRTPQR</sequence>
+</entry>
+<entry dataset="TrEMBL" created="2014-06-11" modified="2022-01-19" version="24" xmlns="http://uniprot.org/uniprot">
+  <accession>Z9JTS8</accession>
+  <name>Z9JTS8_9MICO</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="3">DUF4439 domain-containing protein</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="4" type="ORF">BF93_18715</name>
+  </gene>
+  <organism evidence="4 5">
+    <name type="scientific">Brachybacterium phenoliresistens</name>
+    <dbReference type="NCBI Taxonomy" id="396014"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinobacteria</taxon>
+      <taxon>Micrococcales</taxon>
+      <taxon>Dermabacteraceae</taxon>
+      <taxon>Brachybacterium</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="4 5" key="1">
+    <citation type="submission" date="2014-02" db="EMBL/GenBank/DDBJ databases">
+      <title>Genome sequence of Brachybacterium phenoliresistens strain W13A50.</title>
+      <authorList>
+        <person name="Wang X."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="4 5">W13A50</strain>
+    </source>
+  </reference>
+  <comment type="caution">
+    <text evidence="4">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="JDYK01000009">
+    <property type="protein sequence ID" value="EWS81201.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="STRING" id="396014.BF93_18715"/>
+  <dbReference type="EnsemblBacteria" id="EWS81201">
+    <property type="protein sequence ID" value="EWS81201"/>
+    <property type="gene ID" value="BF93_18715"/>
+  </dbReference>
+  <dbReference type="PATRIC" id="fig|396014.3.peg.2078"/>
+  <dbReference type="eggNOG" id="ENOG5033HJF">
+    <property type="taxonomic scope" value="Bacteria"/>
+  </dbReference>
+  <dbReference type="HOGENOM" id="CLU_766552_0_0_11"/>
+  <dbReference type="Proteomes" id="UP000023067">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.20.1260.10">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR029447">
+    <property type="entry name" value="DUF4439"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR012347">
+    <property type="entry name" value="Ferritin-like"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR009078">
+    <property type="entry name" value="Ferritin-like_SF"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF14530">
+    <property type="entry name" value="DUF4439"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF47240">
+    <property type="entry name" value="SSF47240"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <keyword evidence="5" id="KW-1185">Reference proteome</keyword>
+  <keyword evidence="2" id="KW-0732">Signal</keyword>
+  <feature type="signal peptide" evidence="2">
+    <location>
+      <begin position="1"/>
+      <end position="18"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_5004991111" description="DUF4439 domain-containing protein" evidence="2">
+    <location>
+      <begin position="19"/>
+      <end position="361"/>
+    </location>
+  </feature>
+  <feature type="domain" description="DUF4439" evidence="3">
+    <location>
+      <begin position="233"/>
+      <end position="351"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Disordered" evidence="1">
+    <location>
+      <begin position="106"/>
+      <end position="134"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Disordered" evidence="1">
+    <location>
+      <begin position="202"/>
+      <end position="224"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="SAM" id="MobiDB-lite"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="2">
+    <source>
+      <dbReference type="SAM" id="SignalP"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000259" key="3">
+    <source>
+      <dbReference type="Pfam" id="PF14530"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="4">
+    <source>
+      <dbReference type="EMBL" id="EWS81201.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="5">
+    <source>
+      <dbReference type="Proteomes" id="UP000023067"/>
+    </source>
+  </evidence>
+  <sequence length="361" mass="36871" checksum="547DB33777A96EA3" modified="2014-06-11" version="1">MTRAARRSRPHPSSPVTARRSLLLAAGVGSLGLATGCARLPVRLGQPDAYTPPPPGIDDLYRVDLLDALAQAIALAGSASDVRAAQAELPDLLVGALQEQRGALLTGAEAEDETSAAASGGAESPTVAAPTAMASDGGGATVDAVALVASLVALRDLCVQAARQVSGSLSRPVTAIGAWTAWATARLVALLPQAASALTPLPAPEDVVPTREVPETDPPSVGAQVDFHGTLETAQTDEWYVGYVYEVLAARSGGSTREAHLAARDLHRSRAEQLAAIAVEAGAPVPVRQAVYPLPSSFGSAAGIDAWPSQASHDLLTTYLALVGAAPFAQRPLPIVVALTEAAALAPHVGRLEALPSFDED</sequence>
+</entry>
+<entry dataset="TrEMBL" created="2014-06-11" modified="2022-08-03" version="30" xmlns="http://uniprot.org/uniprot">
+  <accession>Z9JRZ2</accession>
+  <name>Z9JRZ2_9MICO</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="5">Ferritin</fullName>
+      <ecNumber evidence="5">1.16.3.2</ecNumber>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="7" type="ORF">BF93_00980</name>
+  </gene>
+  <organism evidence="7 8">
+    <name type="scientific">Brachybacterium phenoliresistens</name>
+    <dbReference type="NCBI Taxonomy" id="396014"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinobacteria</taxon>
+      <taxon>Micrococcales</taxon>
+      <taxon>Dermabacteraceae</taxon>
+      <taxon>Brachybacterium</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="7 8" key="1">
+    <citation type="submission" date="2014-02" db="EMBL/GenBank/DDBJ databases">
+      <title>Genome sequence of Brachybacterium phenoliresistens strain W13A50.</title>
+      <authorList>
+        <person name="Wang X."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="7 8">W13A50</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text evidence="5">Iron-storage protein.</text>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="1">
+      <text>4 Fe(2+) + 4 H(+) + O2 = 4 Fe(3+) + 2 H2O</text>
+      <dbReference type="Rhea" id="RHEA:11148"/>
+      <dbReference type="ChEBI" id="CHEBI:15377"/>
+      <dbReference type="ChEBI" id="CHEBI:15378"/>
+      <dbReference type="ChEBI" id="CHEBI:15379"/>
+      <dbReference type="ChEBI" id="CHEBI:29033"/>
+      <dbReference type="ChEBI" id="CHEBI:29034"/>
+      <dbReference type="EC" id="1.16.3.1"/>
+    </reaction>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="5">
+      <text>4 Fe(2+) + 6 H2O + O2 = 12 H(+) + 4 iron(III) oxide-hydroxide</text>
+      <dbReference type="Rhea" id="RHEA:11972"/>
+      <dbReference type="ChEBI" id="CHEBI:15377"/>
+      <dbReference type="ChEBI" id="CHEBI:15378"/>
+      <dbReference type="ChEBI" id="CHEBI:15379"/>
+      <dbReference type="ChEBI" id="CHEBI:29033"/>
+      <dbReference type="ChEBI" id="CHEBI:78619"/>
+      <dbReference type="EC" id="1.16.3.2"/>
+    </reaction>
+  </comment>
+  <comment type="cofactor">
+    <cofactor evidence="2">
+      <name>heme b</name>
+      <dbReference type="ChEBI" id="CHEBI:60344"/>
+    </cofactor>
+  </comment>
+  <comment type="subunit">
+    <text evidence="3">Homooligomer of 24 subunits, arranged as 12 dimers, that are packed together to form an approximately spherical molecule with a central cavity, in which large amounts of iron can be deposited.</text>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="5">Cytoplasm</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="similarity">
+    <text evidence="5">Belongs to the ferritin family. Prokaryotic subfamily.</text>
+  </comment>
+  <comment type="caution">
+    <text evidence="7">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EC" id="1.16.3.2" evidence="5"/>
+  <dbReference type="EMBL" id="JDYK01000010">
+    <property type="protein sequence ID" value="EWS80969.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_038372715.1">
+    <property type="nucleotide sequence ID" value="NZ_KK069995.1"/>
+  </dbReference>
+  <dbReference type="STRING" id="396014.BF93_00980"/>
+  <dbReference type="EnsemblBacteria" id="EWS80969">
+    <property type="protein sequence ID" value="EWS80969"/>
+    <property type="gene ID" value="BF93_00980"/>
+  </dbReference>
+  <dbReference type="PATRIC" id="fig|396014.3.peg.2235"/>
+  <dbReference type="eggNOG" id="COG1528">
+    <property type="taxonomic scope" value="Bacteria"/>
+  </dbReference>
+  <dbReference type="HOGENOM" id="CLU_065681_1_2_11"/>
+  <dbReference type="OrthoDB" id="1890523at2"/>
+  <dbReference type="Proteomes" id="UP000023067">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005737">
+    <property type="term" value="C:cytoplasm"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0008199">
+    <property type="term" value="F:ferric iron binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0004322">
+    <property type="term" value="F:ferroxidase activity"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-EC"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006879">
+    <property type="term" value="P:cellular iron ion homeostasis"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006826">
+    <property type="term" value="P:iron ion transport"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd01055">
+    <property type="entry name" value="Nonheme_Ferritin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.20.1260.10">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR002024">
+    <property type="entry name" value="Bacterioferritin"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR001519">
+    <property type="entry name" value="Ferritin"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR012347">
+    <property type="entry name" value="Ferritin-like"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR009040">
+    <property type="entry name" value="Ferritin-like_diiron"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR009078">
+    <property type="entry name" value="Ferritin-like_SF"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR008331">
+    <property type="entry name" value="Ferritin_DPS_dom"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR041719">
+    <property type="entry name" value="Ferritin_prok"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR11431">
+    <property type="entry name" value="PTHR11431"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF00210">
+    <property type="entry name" value="Ferritin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PRINTS" id="PR00601">
+    <property type="entry name" value="BACFERRITIN"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF47240">
+    <property type="entry name" value="SSF47240"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS50905">
+    <property type="entry name" value="FERRITIN_LIKE"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="inferred from homology"/>
+  <keyword evidence="5" id="KW-0963">Cytoplasm</keyword>
+  <keyword evidence="4" id="KW-0349">Heme</keyword>
+  <keyword evidence="5" id="KW-0408">Iron</keyword>
+  <keyword evidence="5" id="KW-0409">Iron storage</keyword>
+  <keyword evidence="5" id="KW-0479">Metal-binding</keyword>
+  <keyword evidence="8" id="KW-1185">Reference proteome</keyword>
+  <feature type="domain" description="Ferritin-like diiron" evidence="6">
+    <location>
+      <begin position="1"/>
+      <end position="147"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="ARBA" id="ARBA00001830"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="2">
+    <source>
+      <dbReference type="ARBA" id="ARBA00001970"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="3">
+    <source>
+      <dbReference type="ARBA" id="ARBA00011637"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="4">
+    <source>
+      <dbReference type="ARBA" id="ARBA00022617"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="5">
+    <source>
+      <dbReference type="RuleBase" id="RU361145"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000259" key="6">
+    <source>
+      <dbReference type="PROSITE" id="PS50905"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="7">
+    <source>
+      <dbReference type="EMBL" id="EWS80969.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="8">
+    <source>
+      <dbReference type="Proteomes" id="UP000023067"/>
+    </source>
+  </evidence>
+  <sequence length="169" mass="18875" checksum="1ADD96E9E9969537" modified="2014-06-11" version="1">MKLSNDLEKKFQDQITLEYAASVTYRQLAIEAEEQDLTGIAAWLRNQAAEELEHADKFIQHVIDRGNHAAIGTINAPHVAPGLTVLEIFEAALAHEQKVSESIRELYRSADKEGDYDSRPLLNWFVDEQVEEESTVSEIIGRLRLVGEDGSGLLRIDAELGSRGEGEED</sequence>
+</entry>
+<entry dataset="TrEMBL" created="2014-06-11" modified="2022-10-12" version="32" xmlns="http://uniprot.org/uniprot">
+  <accession>Z9JRT0</accession>
+  <name>Z9JRT0_9MICO</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="4">Ribonucleoside-diphosphate reductase subunit beta</fullName>
+      <ecNumber evidence="4">1.17.4.1</ecNumber>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="7" type="ORF">BF93_17945</name>
+  </gene>
+  <organism evidence="7 8">
+    <name type="scientific">Brachybacterium phenoliresistens</name>
+    <dbReference type="NCBI Taxonomy" id="396014"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinobacteria</taxon>
+      <taxon>Micrococcales</taxon>
+      <taxon>Dermabacteraceae</taxon>
+      <taxon>Brachybacterium</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="7 8" key="1">
+    <citation type="submission" date="2014-02" db="EMBL/GenBank/DDBJ databases">
+      <title>Genome sequence of Brachybacterium phenoliresistens strain W13A50.</title>
+      <authorList>
+        <person name="Wang X."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="7 8">W13A50</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text evidence="4">Provides the precursors necessary for DNA synthesis. Catalyzes the biosynthesis of deoxyribonucleotides from the corresponding ribonucleotides.</text>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="4">
+      <text>[thioredoxin]-disulfide + a 2'-deoxyribonucleoside 5'-diphosphate + H2O = [thioredoxin]-dithiol + a ribonucleoside 5'-diphosphate</text>
+      <dbReference type="Rhea" id="RHEA:23252"/>
+      <dbReference type="Rhea" id="RHEA-COMP:10698"/>
+      <dbReference type="Rhea" id="RHEA-COMP:10700"/>
+      <dbReference type="ChEBI" id="CHEBI:15377"/>
+      <dbReference type="ChEBI" id="CHEBI:29950"/>
+      <dbReference type="ChEBI" id="CHEBI:50058"/>
+      <dbReference type="ChEBI" id="CHEBI:57930"/>
+      <dbReference type="ChEBI" id="CHEBI:73316"/>
+      <dbReference type="EC" id="1.17.4.1"/>
+    </reaction>
+  </comment>
+  <comment type="cofactor">
+    <cofactor evidence="4 6">
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+    </cofactor>
+    <text evidence="4 6">Binds 2 iron ions per subunit.</text>
+  </comment>
+  <comment type="pathway">
+    <text evidence="1 4">Genetic information processing; DNA replication.</text>
+  </comment>
+  <comment type="subunit">
+    <text evidence="3">Tetramer of two alpha and two beta subunits.</text>
+  </comment>
+  <comment type="similarity">
+    <text evidence="2 4">Belongs to the ribonucleoside diphosphate reductase small chain family.</text>
+  </comment>
+  <comment type="caution">
+    <text evidence="7">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EC" id="1.17.4.1" evidence="4"/>
+  <dbReference type="EMBL" id="JDYK01000009">
+    <property type="protein sequence ID" value="EWS81060.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_038372547.1">
+    <property type="nucleotide sequence ID" value="NZ_KK069994.1"/>
+  </dbReference>
+  <dbReference type="STRING" id="396014.BF93_17945"/>
+  <dbReference type="EnsemblBacteria" id="EWS81060">
+    <property type="protein sequence ID" value="EWS81060"/>
+    <property type="gene ID" value="BF93_17945"/>
+  </dbReference>
+  <dbReference type="PATRIC" id="fig|396014.3.peg.1926"/>
+  <dbReference type="eggNOG" id="COG0208">
+    <property type="taxonomic scope" value="Bacteria"/>
+  </dbReference>
+  <dbReference type="HOGENOM" id="CLU_052495_0_0_11"/>
+  <dbReference type="OrthoDB" id="1384440at2"/>
+  <dbReference type="UniPathway" id="UPA00326"/>
+  <dbReference type="Proteomes" id="UP000023067">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005971">
+    <property type="term" value="C:ribonucleoside-diphosphate reductase complex"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0046872">
+    <property type="term" value="F:metal ion binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0004748">
+    <property type="term" value="F:ribonucleoside-diphosphate reductase activity, thioredoxin disulfide as acceptor"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-EC"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0009263">
+    <property type="term" value="P:deoxyribonucleotide biosynthetic process"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006260">
+    <property type="term" value="P:DNA replication"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-UniPathway"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd01049">
+    <property type="entry name" value="RNRR2"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.10.620.20">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR009078">
+    <property type="entry name" value="Ferritin-like_SF"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR012348">
+    <property type="entry name" value="RNR-like"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR026494">
+    <property type="entry name" value="RNR_NrdF-like"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR033909">
+    <property type="entry name" value="RNR_small"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR030475">
+    <property type="entry name" value="RNR_small_AS"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR000358">
+    <property type="entry name" value="RNR_small_fam"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR23409">
+    <property type="entry name" value="PTHR23409"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF00268">
+    <property type="entry name" value="Ribonuc_red_sm"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PIRSF" id="PIRSF000355">
+    <property type="entry name" value="NrdB"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF47240">
+    <property type="entry name" value="SSF47240"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="TIGRFAMs" id="TIGR04171">
+    <property type="entry name" value="RNR_1b_NrdF"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS00368">
+    <property type="entry name" value="RIBORED_SMALL"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="inferred from homology"/>
+  <keyword evidence="4" id="KW-0215">Deoxyribonucleotide synthesis</keyword>
+  <keyword evidence="4 6" id="KW-0408">Iron</keyword>
+  <keyword evidence="4 6" id="KW-0479">Metal-binding</keyword>
+  <keyword evidence="4 7" id="KW-0560">Oxidoreductase</keyword>
+  <keyword evidence="8" id="KW-1185">Reference proteome</keyword>
+  <feature type="active site" evidence="5">
+    <location>
+      <position position="108"/>
+    </location>
+  </feature>
+  <feature type="binding site" evidence="6">
+    <location>
+      <position position="70"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>1</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="6">
+    <location>
+      <position position="101"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>2</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="6">
+    <location>
+      <position position="101"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>1</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="6">
+    <location>
+      <position position="104"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>1</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="6">
+    <location>
+      <position position="161"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>2</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="6">
+    <location>
+      <position position="195"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>2</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="6">
+    <location>
+      <position position="198"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>2</label>
+    </ligand>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="ARBA" id="ARBA00005160"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="2">
+    <source>
+      <dbReference type="ARBA" id="ARBA00009303"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="3">
+    <source>
+      <dbReference type="ARBA" id="ARBA00011209"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="4">
+    <source>
+      <dbReference type="PIRNR" id="PIRNR000355"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="5">
+    <source>
+      <dbReference type="PIRSR" id="PIRSR000355-1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="6">
+    <source>
+      <dbReference type="PIRSR" id="PIRSR000355-2"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="7">
+    <source>
+      <dbReference type="EMBL" id="EWS81060.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="8">
+    <source>
+      <dbReference type="Proteomes" id="UP000023067"/>
+    </source>
+  </evidence>
+  <sequence length="322" mass="36994" checksum="F8D1F7627FBB340F" modified="2014-06-11" version="1">MNDHLKTSVQAINWNRIPDPKDLEVWDRLTGNFWLPEKVPLSNDIQSWNRLSEQEQQLTMRVFTGLTLLDTVQGTVGAVSLIPDALTPHEEAVYTNIAFMESVHAKSYSQIFSTLSDTKQIDDAFRWSEHNESLQKKAKIVMGYYQGDDPEKRKVASTLLESFLFYSGFYLPMHYSSHGELTNTADIIRLIIRDEAVHGYYIGYKFQKAVEKASEARRQELKDYTMSLLFELYENEEEYTEDLYDPVGWTEDVKTFLRYNANKALMNLGYEPMFPSEITEVNPAILASLSPNADENHDFFSGSGSSYVMGKAVDTSDDDWDF</sequence>
+</entry>
+<entry dataset="TrEMBL" created="2014-06-11" modified="2022-10-12" version="40" xmlns="http://uniprot.org/uniprot">
+  <accession>Z9JKF3</accession>
+  <name>Z9JKF3_9GAMM</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="3 5">Bacterioferritin</fullName>
+      <ecNumber evidence="5">1.16.3.1</ecNumber>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="9" type="ORF">AF72_03390</name>
+  </gene>
+  <organism evidence="9 10">
+    <name type="scientific">Xylella taiwanensis</name>
+    <dbReference type="NCBI Taxonomy" id="1444770"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Proteobacteria</taxon>
+      <taxon>Gammaproteobacteria</taxon>
+      <taxon>Xanthomonadales</taxon>
+      <taxon>Xanthomonadaceae</taxon>
+      <taxon>Xylella</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="9 10" key="1">
+    <citation type="journal article" date="2014" name="Genome Announc." volume="2" first="e00166" last="14">
+      <title>Draft Genome Sequence of Xylella fastidiosa Pear Leaf Scorch Strain in Taiwan.</title>
+      <authorList>
+        <person name="Su C.C."/>
+        <person name="Deng W.L."/>
+        <person name="Jan F.J."/>
+        <person name="Chang C.J."/>
+        <person name="Huang H."/>
+        <person name="Chen J."/>
+      </authorList>
+      <dbReference type="PubMed" id="24652975"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="9 10">PLS229</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text evidence="5">Iron-storage protein, whose ferroxidase center binds Fe(2+) ions, oxidizes them by dioxygen to Fe(3+), and participates in the subsequent Fe(3+) oxide mineral core formation within the central cavity of the protein complex.</text>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="5">
+      <text>4 Fe(2+) + 4 H(+) + O2 = 4 Fe(3+) + 2 H2O</text>
+      <dbReference type="Rhea" id="RHEA:11148"/>
+      <dbReference type="ChEBI" id="CHEBI:15377"/>
+      <dbReference type="ChEBI" id="CHEBI:15378"/>
+      <dbReference type="ChEBI" id="CHEBI:15379"/>
+      <dbReference type="ChEBI" id="CHEBI:29033"/>
+      <dbReference type="ChEBI" id="CHEBI:29034"/>
+      <dbReference type="EC" id="1.16.3.1"/>
+    </reaction>
+  </comment>
+  <comment type="cofactor">
+    <cofactor evidence="1">
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+    </cofactor>
+  </comment>
+  <comment type="similarity">
+    <text evidence="2 5 7">Belongs to the bacterioferritin family.</text>
+  </comment>
+  <comment type="caution">
+    <text evidence="9">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EC" id="1.16.3.1" evidence="5"/>
+  <dbReference type="EMBL" id="JDSQ01000004">
+    <property type="protein sequence ID" value="EWS78890.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_038270549.1">
+    <property type="nucleotide sequence ID" value="NZ_VOSE01000003.1"/>
+  </dbReference>
+  <dbReference type="STRING" id="1444770.AF72_03390"/>
+  <dbReference type="EnsemblBacteria" id="EWS78890">
+    <property type="protein sequence ID" value="EWS78890"/>
+    <property type="gene ID" value="AF72_03390"/>
+  </dbReference>
+  <dbReference type="GeneID" id="69681286"/>
+  <dbReference type="KEGG" id="xtw:AB672_09510"/>
+  <dbReference type="PATRIC" id="fig|1444770.3.peg.827"/>
+  <dbReference type="eggNOG" id="COG2193">
+    <property type="taxonomic scope" value="Bacteria"/>
+  </dbReference>
+  <dbReference type="OrthoDB" id="1890523at2"/>
+  <dbReference type="Proteomes" id="UP000020406">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0008199">
+    <property type="term" value="F:ferric iron binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0004322">
+    <property type="term" value="F:ferroxidase activity"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-EC"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006879">
+    <property type="term" value="P:cellular iron ion homeostasis"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006826">
+    <property type="term" value="P:iron ion transport"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd00907">
+    <property type="entry name" value="Bacterioferritin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.20.1260.10">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR002024">
+    <property type="entry name" value="Bacterioferritin"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR012347">
+    <property type="entry name" value="Ferritin-like"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR009040">
+    <property type="entry name" value="Ferritin-like_diiron"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR009078">
+    <property type="entry name" value="Ferritin-like_SF"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR008331">
+    <property type="entry name" value="Ferritin_DPS_dom"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF00210">
+    <property type="entry name" value="Ferritin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PIRSF" id="PIRSF002560">
+    <property type="entry name" value="Bacterioferritin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PRINTS" id="PR00601">
+    <property type="entry name" value="BACFERRITIN"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF47240">
+    <property type="entry name" value="SSF47240"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="TIGRFAMs" id="TIGR00754">
+    <property type="entry name" value="bfr"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS00549">
+    <property type="entry name" value="BACTERIOFERRITIN"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS50905">
+    <property type="entry name" value="FERRITIN_LIKE"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="inferred from homology"/>
+  <keyword evidence="4 5" id="KW-0349">Heme</keyword>
+  <keyword evidence="5 6" id="KW-0408">Iron</keyword>
+  <keyword evidence="5 7" id="KW-0409">Iron storage</keyword>
+  <keyword evidence="5 6" id="KW-0479">Metal-binding</keyword>
+  <feature type="domain" description="Ferritin-like diiron" evidence="8">
+    <location>
+      <begin position="1"/>
+      <end position="145"/>
+    </location>
+  </feature>
+  <feature type="binding site" evidence="6">
+    <location>
+      <position position="18"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>1</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="6">
+    <location>
+      <position position="50"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>3</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="6">
+    <location>
+      <position position="51"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>2</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="6">
+    <location>
+      <position position="51"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>1</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" description="axial binding residue" evidence="6">
+    <location>
+      <position position="52"/>
+    </location>
+    <ligand>
+      <name>heme b</name>
+      <dbReference type="ChEBI" id="CHEBI:60344"/>
+      <note>ligand shared between dimeric partners</note>
+    </ligand>
+    <ligandPart>
+      <name>Fe</name>
+      <dbReference type="ChEBI" id="CHEBI:18248"/>
+    </ligandPart>
+  </feature>
+  <feature type="binding site" evidence="6">
+    <location>
+      <position position="54"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>1</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="6">
+    <location>
+      <position position="94"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>2</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="6">
+    <location>
+      <position position="127"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>2</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="6">
+    <location>
+      <position position="127"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>1</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="6">
+    <location>
+      <position position="130"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>2</label>
+    </ligand>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="ARBA" id="ARBA00001962"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="2">
+    <source>
+      <dbReference type="ARBA" id="ARBA00008093"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="3">
+    <source>
+      <dbReference type="ARBA" id="ARBA00019061"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="4">
+    <source>
+      <dbReference type="ARBA" id="ARBA00022617"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="5">
+    <source>
+      <dbReference type="PIRNR" id="PIRNR002560"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="6">
+    <source>
+      <dbReference type="PIRSR" id="PIRSR002560-1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="7">
+    <source>
+      <dbReference type="RuleBase" id="RU000623"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000259" key="8">
+    <source>
+      <dbReference type="PROSITE" id="PS50905"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="9">
+    <source>
+      <dbReference type="EMBL" id="EWS78890.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="10">
+    <source>
+      <dbReference type="Proteomes" id="UP000020406"/>
+    </source>
+  </evidence>
+  <sequence length="156" mass="18002" checksum="05D73699546D4781" modified="2014-06-11" version="1">MKGNAKVIEYLNKVLCNELTAINQYFLHAKMLKNWGLAELAEHEYKESIDEMKHADRLSDRILFLDGLPNFQALGKLRIGESPTEMFGCDLALEQEAVALLREAVSYTESVQDYVSRELLVDILNSEEEHIDWIEMQLDIVKRIGEPNYLLTKLED</sequence>
+</entry>
+<entry dataset="TrEMBL" created="2014-06-11" modified="2022-10-12" version="32" xmlns="http://uniprot.org/uniprot">
+  <accession>Z9JJ74</accession>
+  <name>Z9JJ74_9GAMM</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="3">Ribonucleoside-diphosphate reductase subunit beta</fullName>
+      <ecNumber evidence="3">1.17.4.1</ecNumber>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="6" type="ORF">AF72_05820</name>
+  </gene>
+  <organism evidence="6 7">
+    <name type="scientific">Xylella taiwanensis</name>
+    <dbReference type="NCBI Taxonomy" id="1444770"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Proteobacteria</taxon>
+      <taxon>Gammaproteobacteria</taxon>
+      <taxon>Xanthomonadales</taxon>
+      <taxon>Xanthomonadaceae</taxon>
+      <taxon>Xylella</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="6 7" key="1">
+    <citation type="journal article" date="2014" name="Genome Announc." volume="2" first="e00166" last="14">
+      <title>Draft Genome Sequence of Xylella fastidiosa Pear Leaf Scorch Strain in Taiwan.</title>
+      <authorList>
+        <person name="Su C.C."/>
+        <person name="Deng W.L."/>
+        <person name="Jan F.J."/>
+        <person name="Chang C.J."/>
+        <person name="Huang H."/>
+        <person name="Chen J."/>
+      </authorList>
+      <dbReference type="PubMed" id="24652975"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="6 7">PLS229</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text evidence="3">Provides the precursors necessary for DNA synthesis. Catalyzes the biosynthesis of deoxyribonucleotides from the corresponding ribonucleotides.</text>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="3">
+      <text>[thioredoxin]-disulfide + a 2'-deoxyribonucleoside 5'-diphosphate + H2O = [thioredoxin]-dithiol + a ribonucleoside 5'-diphosphate</text>
+      <dbReference type="Rhea" id="RHEA:23252"/>
+      <dbReference type="Rhea" id="RHEA-COMP:10698"/>
+      <dbReference type="Rhea" id="RHEA-COMP:10700"/>
+      <dbReference type="ChEBI" id="CHEBI:15377"/>
+      <dbReference type="ChEBI" id="CHEBI:29950"/>
+      <dbReference type="ChEBI" id="CHEBI:50058"/>
+      <dbReference type="ChEBI" id="CHEBI:57930"/>
+      <dbReference type="ChEBI" id="CHEBI:73316"/>
+      <dbReference type="EC" id="1.17.4.1"/>
+    </reaction>
+  </comment>
+  <comment type="cofactor">
+    <cofactor evidence="3 5">
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+    </cofactor>
+    <text evidence="3 5">Binds 2 iron ions per subunit.</text>
+  </comment>
+  <comment type="pathway">
+    <text evidence="1 3">Genetic information processing; DNA replication.</text>
+  </comment>
+  <comment type="similarity">
+    <text evidence="2 3">Belongs to the ribonucleoside diphosphate reductase small chain family.</text>
+  </comment>
+  <comment type="caution">
+    <text evidence="6">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EC" id="1.17.4.1" evidence="3"/>
+  <dbReference type="EMBL" id="JDSQ01000007">
+    <property type="protein sequence ID" value="EWS78450.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="STRING" id="1444770.AF72_05820"/>
+  <dbReference type="EnsemblBacteria" id="EWS78450">
+    <property type="protein sequence ID" value="EWS78450"/>
+    <property type="gene ID" value="AF72_05820"/>
+  </dbReference>
+  <dbReference type="PATRIC" id="fig|1444770.3.peg.1383"/>
+  <dbReference type="eggNOG" id="COG0208">
+    <property type="taxonomic scope" value="Bacteria"/>
+  </dbReference>
+  <dbReference type="UniPathway" id="UPA00326"/>
+  <dbReference type="Proteomes" id="UP000020406">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0046872">
+    <property type="term" value="F:metal ion binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0004748">
+    <property type="term" value="F:ribonucleoside-diphosphate reductase activity, thioredoxin disulfide as acceptor"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-EC"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0009263">
+    <property type="term" value="P:deoxyribonucleotide biosynthetic process"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006260">
+    <property type="term" value="P:DNA replication"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-UniPathway"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd01049">
+    <property type="entry name" value="RNRR2"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.10.620.20">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR009078">
+    <property type="entry name" value="Ferritin-like_SF"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR012348">
+    <property type="entry name" value="RNR-like"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR033909">
+    <property type="entry name" value="RNR_small"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR000358">
+    <property type="entry name" value="RNR_small_fam"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR23409">
+    <property type="entry name" value="PTHR23409"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF00268">
+    <property type="entry name" value="Ribonuc_red_sm"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PIRSF" id="PIRSF000355">
+    <property type="entry name" value="NrdB"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF47240">
+    <property type="entry name" value="SSF47240"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="inferred from homology"/>
+  <keyword evidence="3" id="KW-0215">Deoxyribonucleotide synthesis</keyword>
+  <keyword evidence="3 5" id="KW-0408">Iron</keyword>
+  <keyword evidence="3 5" id="KW-0479">Metal-binding</keyword>
+  <keyword evidence="3" id="KW-0560">Oxidoreductase</keyword>
+  <feature type="active site" evidence="4">
+    <location>
+      <position position="129"/>
+    </location>
+  </feature>
+  <feature type="binding site" evidence="5">
+    <location>
+      <position position="92"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>1</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="5">
+    <location>
+      <position position="122"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>1</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="5">
+    <location>
+      <position position="122"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>2</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="5">
+    <location>
+      <position position="125"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>1</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="5">
+    <location>
+      <position position="189"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>2</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="5">
+    <location>
+      <position position="223"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>2</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="5">
+    <location>
+      <position position="226"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>2</label>
+    </ligand>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="ARBA" id="ARBA00005160"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="2">
+    <source>
+      <dbReference type="ARBA" id="ARBA00009303"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="3">
+    <source>
+      <dbReference type="PIRNR" id="PIRNR000355"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="4">
+    <source>
+      <dbReference type="PIRSR" id="PIRSR000355-1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="5">
+    <source>
+      <dbReference type="PIRSR" id="PIRSR000355-2"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="6">
+    <source>
+      <dbReference type="EMBL" id="EWS78450.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="7">
+    <source>
+      <dbReference type="Proteomes" id="UP000020406"/>
+    </source>
+  </evidence>
+  <sequence length="349" mass="39873" checksum="EC3B559C28B1EE11" modified="2014-06-11" version="1">MSNMAISLDRIKILEPRNPNRSTGIINGKTSGILNWNDIPYPSFYRAYKELSTNFWIPDEVDMKVDARQYSELSGREKYAYDAIIGLLATLDSPQTRFIYNVAEYITDPAAHANAAIIGQQEVIHNESYSYVLASITDLANQNRVFEIARTHPTILKRNAPIMQAYDDFIREKTAETLLCSLVQSSILEGINFYSGFAYFYNLVRQNRMTGTGKIISFINRDELAHTKFISEVIRAIVGENPELQTDALTDYVHQAFAHAIELETQWTGEVLDGIDGIDVEEMIRYVKYRANKMAGMLGIEKLYTETTDNVMPWIKAYADNFTETKTDFFEMRNASYKKTNLDNGFDDL</sequence>
+</entry>
+<entry dataset="TrEMBL" created="2014-06-11" modified="2022-10-12" version="28" xmlns="http://uniprot.org/uniprot">
+  <accession>Z9JJ28</accession>
+  <name>Z9JJ28_9GAMM</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="4">DNA-binding protein</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="4" type="ORF">AF72_08670</name>
+  </gene>
+  <organism evidence="4 5">
+    <name type="scientific">Xylella taiwanensis</name>
+    <dbReference type="NCBI Taxonomy" id="1444770"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Proteobacteria</taxon>
+      <taxon>Gammaproteobacteria</taxon>
+      <taxon>Xanthomonadales</taxon>
+      <taxon>Xanthomonadaceae</taxon>
+      <taxon>Xylella</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="4 5" key="1">
+    <citation type="journal article" date="2014" name="Genome Announc." volume="2" first="e00166" last="14">
+      <title>Draft Genome Sequence of Xylella fastidiosa Pear Leaf Scorch Strain in Taiwan.</title>
+      <authorList>
+        <person name="Su C.C."/>
+        <person name="Deng W.L."/>
+        <person name="Jan F.J."/>
+        <person name="Chang C.J."/>
+        <person name="Huang H."/>
+        <person name="Chen J."/>
+      </authorList>
+      <dbReference type="PubMed" id="24652975"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="4 5">PLS229</strain>
+    </source>
+  </reference>
+  <comment type="similarity">
+    <text evidence="1 2">Belongs to the Dps family.</text>
+  </comment>
+  <comment type="caution">
+    <text evidence="4">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="JDSQ01000013">
+    <property type="protein sequence ID" value="EWS77841.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_038271495.1">
+    <property type="nucleotide sequence ID" value="NZ_VOSE01000003.1"/>
+  </dbReference>
+  <dbReference type="STRING" id="1444770.AF72_08670"/>
+  <dbReference type="EnsemblBacteria" id="EWS77841">
+    <property type="protein sequence ID" value="EWS77841"/>
+    <property type="gene ID" value="AF72_08670"/>
+  </dbReference>
+  <dbReference type="GeneID" id="69681090"/>
+  <dbReference type="KEGG" id="xtw:AB672_08545"/>
+  <dbReference type="PATRIC" id="fig|1444770.3.peg.2055"/>
+  <dbReference type="eggNOG" id="COG0783">
+    <property type="taxonomic scope" value="Bacteria"/>
+  </dbReference>
+  <dbReference type="OrthoDB" id="1742631at2"/>
+  <dbReference type="Proteomes" id="UP000020406">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0003677">
+    <property type="term" value="F:DNA binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0008199">
+    <property type="term" value="F:ferric iron binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0016722">
+    <property type="term" value="F:oxidoreductase activity, acting on metal ions"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd01043">
+    <property type="entry name" value="DPS"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.20.1260.10">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR002177">
+    <property type="entry name" value="DPS_DNA-bd"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR023188">
+    <property type="entry name" value="DPS_DNA-bd_CS"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR012347">
+    <property type="entry name" value="Ferritin-like"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR009078">
+    <property type="entry name" value="Ferritin-like_SF"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR008331">
+    <property type="entry name" value="Ferritin_DPS_dom"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR42932">
+    <property type="entry name" value="PTHR42932"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF00210">
+    <property type="entry name" value="Ferritin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PIRSF" id="PIRSF005900">
+    <property type="entry name" value="Dps"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PRINTS" id="PR01346">
+    <property type="entry name" value="HELNAPAPROT"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF47240">
+    <property type="entry name" value="SSF47240"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS00818">
+    <property type="entry name" value="DPS_1"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS00819">
+    <property type="entry name" value="DPS_2"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="inferred from homology"/>
+  <keyword evidence="4" id="KW-0238">DNA-binding</keyword>
+  <feature type="domain" description="Ferritin" evidence="3">
+    <location>
+      <begin position="40"/>
+      <end position="180"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="ARBA" id="ARBA00009497"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="2">
+    <source>
+      <dbReference type="RuleBase" id="RU003875"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000259" key="3">
+    <source>
+      <dbReference type="Pfam" id="PF00210"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="4">
+    <source>
+      <dbReference type="EMBL" id="EWS77841.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="5">
+    <source>
+      <dbReference type="Proteomes" id="UP000020406"/>
+    </source>
+  </evidence>
+  <sequence length="180" mass="20494" checksum="5FB9852E3464EA5E" modified="2014-06-11" version="1">MAKKQQNSKSENKTMLASAISMPEVNIGIKTSDRKTIAEGLSHYMADAFTLYLKTHTFHWNVTGPMFNSLHTMFETQYTEQWAALDEIAERIRALGYNAPGSYKEYLALTSIEEEPGLSDNTDWREMVRQLVIGNEAVCRTARKVLSTAEDASDDPTADLLTQRLQIHEKYAWMLRSLLQ</sequence>
+</entry>
+<entry dataset="TrEMBL" created="2014-06-11" modified="2022-10-12" version="20" xmlns="http://uniprot.org/uniprot">
+  <accession>Z9JG58</accession>
+  <name>Z9JG58_9GAMM</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Anaerobic ribonucleoside triphosphate reductase</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ORF">AF72_13175</name>
+  </gene>
+  <organism evidence="1 2">
+    <name type="scientific">Xylella taiwanensis</name>
+    <dbReference type="NCBI Taxonomy" id="1444770"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Proteobacteria</taxon>
+      <taxon>Gammaproteobacteria</taxon>
+      <taxon>Xanthomonadales</taxon>
+      <taxon>Xanthomonadaceae</taxon>
+      <taxon>Xylella</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1 2" key="1">
+    <citation type="journal article" date="2014" name="Genome Announc." volume="2" first="e00166" last="14">
+      <title>Draft Genome Sequence of Xylella fastidiosa Pear Leaf Scorch Strain in Taiwan.</title>
+      <authorList>
+        <person name="Su C.C."/>
+        <person name="Deng W.L."/>
+        <person name="Jan F.J."/>
+        <person name="Chang C.J."/>
+        <person name="Huang H."/>
+        <person name="Chen J."/>
+      </authorList>
+      <dbReference type="PubMed" id="24652975"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="1 2">PLS229</strain>
+    </source>
+  </reference>
+  <comment type="caution">
+    <text evidence="1">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="JDSQ01000041">
+    <property type="protein sequence ID" value="EWS76993.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_038273060.1">
+    <property type="nucleotide sequence ID" value="NZ_JDSQ01000041.1"/>
+  </dbReference>
+  <dbReference type="EnsemblBacteria" id="EWS76993">
+    <property type="protein sequence ID" value="EWS76993"/>
+    <property type="gene ID" value="AF72_13175"/>
+  </dbReference>
+  <dbReference type="GeneID" id="69682184"/>
+  <dbReference type="KEGG" id="xtw:AB672_02150"/>
+  <dbReference type="PATRIC" id="fig|1444770.3.peg.3113"/>
+  <dbReference type="eggNOG" id="COG2833">
+    <property type="taxonomic scope" value="Bacteria"/>
+  </dbReference>
+  <dbReference type="OrthoDB" id="1291114at2"/>
+  <dbReference type="Proteomes" id="UP000020406">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR007402">
+    <property type="entry name" value="DUF455"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR009078">
+    <property type="entry name" value="Ferritin-like_SF"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR011197">
+    <property type="entry name" value="UCP012318"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF04305">
+    <property type="entry name" value="DUF455"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PIRSF" id="PIRSF012318">
+    <property type="entry name" value="UCP012318"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF47240">
+    <property type="entry name" value="SSF47240"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="EWS76993.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="Proteomes" id="UP000020406"/>
+    </source>
+  </evidence>
+  <sequence length="266" mass="29745" checksum="A71E49D0BFA3BA85" modified="2014-06-11" version="1">MDLLQAAWACLRAAAPEAKVALTHHYAAAFRLGQLKLPTEAPPPVPIAMPGRPARPHLVHPRALPQRGLGSNAGRAAFVHAIVHIELNAIDLAWDAVYRFRGLPQAFYADWVNVADDESRHFTLLRGRLHALGYDYGDFDAHNGLWEMCEKTAHDGLARMALVPRVLEARSLDVTPGMIAKLRALGDDATADILEIILREEVAHVAAGSRWYRWYCTHIGVEPYTHFKVLLREYARGYLHQPFNLEARLLAGFDKEELVNLVNQAD</sequence>
+</entry>
+<entry dataset="TrEMBL" created="2014-06-11" modified="2022-10-12" version="39" xmlns="http://uniprot.org/uniprot">
+  <accession>Z9JFL9</accession>
+  <name>Z9JFL9_9GAMM</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="7">3-demethoxyubiquinol 3-hydroxylase</fullName>
+      <shortName evidence="7">DMQ hydroxylase</shortName>
+      <ecNumber evidence="7">1.14.99.60</ecNumber>
+    </recommendedName>
+    <alternativeName>
+      <fullName evidence="7">2-nonaprenyl-3-methyl-6-methoxy-1,4-benzoquinol hydroxylase</fullName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name evidence="7" type="primary">coq7</name>
+    <name evidence="8" type="ORF">AF72_12075</name>
+  </gene>
+  <organism evidence="8 9">
+    <name type="scientific">Xylella taiwanensis</name>
+    <dbReference type="NCBI Taxonomy" id="1444770"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Proteobacteria</taxon>
+      <taxon>Gammaproteobacteria</taxon>
+      <taxon>Xanthomonadales</taxon>
+      <taxon>Xanthomonadaceae</taxon>
+      <taxon>Xylella</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="8 9" key="1">
+    <citation type="journal article" date="2014" name="Genome Announc." volume="2" first="e00166" last="14">
+      <title>Draft Genome Sequence of Xylella fastidiosa Pear Leaf Scorch Strain in Taiwan.</title>
+      <authorList>
+        <person name="Su C.C."/>
+        <person name="Deng W.L."/>
+        <person name="Jan F.J."/>
+        <person name="Chang C.J."/>
+        <person name="Huang H."/>
+        <person name="Chen J."/>
+      </authorList>
+      <dbReference type="PubMed" id="24652975"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="8 9">PLS229</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text evidence="7">Catalyzes the hydroxylation of 2-nonaprenyl-3-methyl-6-methoxy-1,4-benzoquinol during ubiquinone biosynthesis.</text>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="7">
+      <text>a 6-methoxy-3-methyl-2-all-trans-polyprenyl-1,4-benzoquinol + AH2 + O2 = A + a 3-demethylubiquinol + H2O</text>
+      <dbReference type="Rhea" id="RHEA:50908"/>
+      <dbReference type="Rhea" id="RHEA-COMP:10859"/>
+      <dbReference type="Rhea" id="RHEA-COMP:10914"/>
+      <dbReference type="ChEBI" id="CHEBI:13193"/>
+      <dbReference type="ChEBI" id="CHEBI:15377"/>
+      <dbReference type="ChEBI" id="CHEBI:15379"/>
+      <dbReference type="ChEBI" id="CHEBI:17499"/>
+      <dbReference type="ChEBI" id="CHEBI:84167"/>
+      <dbReference type="ChEBI" id="CHEBI:84422"/>
+      <dbReference type="EC" id="1.14.99.60"/>
+    </reaction>
+  </comment>
+  <comment type="cofactor">
+    <cofactor evidence="7">
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+    </cofactor>
+    <text evidence="7">Binds 2 iron ions per subunit.</text>
+  </comment>
+  <comment type="pathway">
+    <text evidence="7">Cofactor biosynthesis; ubiquinone biosynthesis.</text>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="7">Cell membrane</location>
+      <topology evidence="7">Peripheral membrane protein</topology>
+    </subcellularLocation>
+  </comment>
+  <comment type="similarity">
+    <text evidence="7">Belongs to the COQ7 family.</text>
+  </comment>
+  <comment type="caution">
+    <text evidence="8">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EC" id="1.14.99.60" evidence="7"/>
+  <dbReference type="EMBL" id="JDSQ01000027">
+    <property type="protein sequence ID" value="EWS77200.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="STRING" id="1444770.AF72_12075"/>
+  <dbReference type="EnsemblBacteria" id="EWS77200">
+    <property type="protein sequence ID" value="EWS77200"/>
+    <property type="gene ID" value="AF72_12075"/>
+  </dbReference>
+  <dbReference type="PATRIC" id="fig|1444770.3.peg.2846"/>
+  <dbReference type="eggNOG" id="COG2941">
+    <property type="taxonomic scope" value="Bacteria"/>
+  </dbReference>
+  <dbReference type="UniPathway" id="UPA00232"/>
+  <dbReference type="Proteomes" id="UP000020406">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005886">
+    <property type="term" value="C:plasma membrane"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0008682">
+    <property type="term" value="F:3-demethoxyubiquinol 3-hydroxylase activity"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-EC"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0046872">
+    <property type="term" value="F:metal ion binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006744">
+    <property type="term" value="P:ubiquinone biosynthetic process"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-UniRule"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd01042">
+    <property type="entry name" value="DMQH"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.20.1260.10">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="HAMAP" id="MF_01658">
+    <property type="entry name" value="COQ7"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR012347">
+    <property type="entry name" value="Ferritin-like"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR009078">
+    <property type="entry name" value="Ferritin-like_SF"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR011566">
+    <property type="entry name" value="Ubq_synth_Coq7"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR11237">
+    <property type="entry name" value="PTHR11237"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF47240">
+    <property type="entry name" value="SSF47240"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="inferred from homology"/>
+  <keyword evidence="7" id="KW-1003">Cell membrane</keyword>
+  <keyword evidence="4 7" id="KW-0408">Iron</keyword>
+  <keyword evidence="6 7" id="KW-0472">Membrane</keyword>
+  <keyword evidence="2 7" id="KW-0479">Metal-binding</keyword>
+  <keyword evidence="5 7" id="KW-0503">Monooxygenase</keyword>
+  <keyword evidence="3 7" id="KW-0560">Oxidoreductase</keyword>
+  <keyword evidence="1 7" id="KW-0831">Ubiquinone biosynthesis</keyword>
+  <feature type="binding site" evidence="7">
+    <location>
+      <position position="69"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>1</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="7">
+    <location>
+      <position position="99"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>2</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="7">
+    <location>
+      <position position="99"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>1</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="7">
+    <location>
+      <position position="102"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>1</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="7">
+    <location>
+      <position position="151"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>2</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="7">
+    <location>
+      <position position="183"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>2</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="7">
+    <location>
+      <position position="183"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>1</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="7">
+    <location>
+      <position position="186"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>2</label>
+    </ligand>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="ARBA" id="ARBA00022688"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="2">
+    <source>
+      <dbReference type="ARBA" id="ARBA00022723"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="3">
+    <source>
+      <dbReference type="ARBA" id="ARBA00023002"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="4">
+    <source>
+      <dbReference type="ARBA" id="ARBA00023004"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="5">
+    <source>
+      <dbReference type="ARBA" id="ARBA00023033"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="6">
+    <source>
+      <dbReference type="ARBA" id="ARBA00023136"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="7">
+    <source>
+      <dbReference type="HAMAP-Rule" id="MF_01658"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="8">
+    <source>
+      <dbReference type="EMBL" id="EWS77200.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="9">
+    <source>
+      <dbReference type="Proteomes" id="UP000020406"/>
+    </source>
+  </evidence>
+  <sequence length="220" mass="24735" checksum="C4E5721C7FE9C961" modified="2014-06-11" version="1">MLAMDTNLSTRCHIHLDSLLIETQRVLEVVFGHPVAQRPSPANALPNPLLSPKDRRHAAGLMRINHVGEVCAQGLYFGQVAVARKEELRQHLLKAAQEETDHLAWCSDRLQELESRPSLFNPLWYAGSYVLGVFAGLVGDPWSLGFVVETERQVEAHLDKHLQTFPDVDTRSREILRVMKADEARHAEQAEQAGARLLPSPIPVAMAWAAHFMRIVAYRI</sequence>
+</entry>
+<entry dataset="TrEMBL" created="2014-06-11" modified="2021-06-02" version="25" xmlns="http://uniprot.org/uniprot">
+  <accession>Z4X1G6</accession>
+  <name>Z4X1G6_9PORP</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="4">DNA protection during starvation protein</fullName>
+      <ecNumber evidence="4">1.16.-.-</ecNumber>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="4" type="primary">dps</name>
+    <name evidence="4" type="ORF">HMPREF0636_1019</name>
+  </gene>
+  <organism evidence="4 5">
+    <name type="scientific">Porphyromonas catoniae ATCC 51270</name>
+    <dbReference type="NCBI Taxonomy" id="887901"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacteroidetes</taxon>
+      <taxon>Bacteroidia</taxon>
+      <taxon>Bacteroidales</taxon>
+      <taxon>Porphyromonadaceae</taxon>
+      <taxon>Porphyromonas</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="4 5" key="1">
+    <citation type="submission" date="2014-01" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Durkin A.S."/>
+        <person name="McCorrison J."/>
+        <person name="Torralba M."/>
+        <person name="Gillis M."/>
+        <person name="Haft D.H."/>
+        <person name="Methe B."/>
+        <person name="Sutton G."/>
+        <person name="Nelson K.E."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="4 5">ATCC 51270</strain>
+    </source>
+  </reference>
+  <comment type="similarity">
+    <text evidence="1 2">Belongs to the Dps family.</text>
+  </comment>
+  <comment type="caution">
+    <text evidence="4">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EC" id="1.16.-.-" evidence="4"/>
+  <dbReference type="EMBL" id="JDFF01000004">
+    <property type="protein sequence ID" value="EWC93544.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_044167780.1">
+    <property type="nucleotide sequence ID" value="NZ_JDFF01000004.1"/>
+  </dbReference>
+  <dbReference type="EnsemblBacteria" id="EWC93544">
+    <property type="protein sequence ID" value="EWC93544"/>
+    <property type="gene ID" value="HMPREF0636_1019"/>
+  </dbReference>
+  <dbReference type="PATRIC" id="fig|887901.3.peg.160"/>
+  <dbReference type="OrthoDB" id="1742631at2"/>
+  <dbReference type="Proteomes" id="UP000023482">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0008199">
+    <property type="term" value="F:ferric iron binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0016722">
+    <property type="term" value="F:oxidoreductase activity, acting on metal ions"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd01043">
+    <property type="entry name" value="DPS"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.20.1260.10">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR002177">
+    <property type="entry name" value="DPS_DNA-bd"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR023188">
+    <property type="entry name" value="DPS_DNA-bd_CS"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR012347">
+    <property type="entry name" value="Ferritin-like"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR009078">
+    <property type="entry name" value="Ferritin-like_SF"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR008331">
+    <property type="entry name" value="Ferritin_DPS_dom"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR42932">
+    <property type="entry name" value="PTHR42932"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF00210">
+    <property type="entry name" value="Ferritin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PIRSF" id="PIRSF005900">
+    <property type="entry name" value="Dps"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PRINTS" id="PR01346">
+    <property type="entry name" value="HELNAPAPROT"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF47240">
+    <property type="entry name" value="SSF47240"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS00818">
+    <property type="entry name" value="DPS_1"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS00819">
+    <property type="entry name" value="DPS_2"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="inferred from homology"/>
+  <keyword evidence="4" id="KW-0560">Oxidoreductase</keyword>
+  <keyword evidence="5" id="KW-1185">Reference proteome</keyword>
+  <feature type="domain" description="Ferritin" evidence="3">
+    <location>
+      <begin position="19"/>
+      <end position="154"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="ARBA" id="ARBA00009497"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="2">
+    <source>
+      <dbReference type="RuleBase" id="RU003875"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000259" key="3">
+    <source>
+      <dbReference type="Pfam" id="PF00210"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="4">
+    <source>
+      <dbReference type="EMBL" id="EWC93544.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="5">
+    <source>
+      <dbReference type="Proteomes" id="UP000023482"/>
+    </source>
+  </evidence>
+  <sequence length="157" mass="17502" checksum="1276779706CB8339" modified="2014-06-11" version="1">MNVLSITGIKAAAAAKVVKGLNQLLADFQVYYTNLRGYHWHVRGPQFFTLHEQFEKMYDGAAEHIDEIAERILQLGAMPENRFSEYLKISKIKEQTKVSSKDDIIPLILNALKVLIAQERAVAALADEAGDIATGDLVSDLIDDQEKTVWMIASLEA</sequence>
+</entry>
+<entry dataset="TrEMBL" created="2014-06-11" modified="2020-10-07" version="21" xmlns="http://uniprot.org/uniprot">
+  <accession>Z4WXK1</accession>
+  <name>Z4WXK1_9PORP</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="4">Ribonucleoside-diphosphate reductase</fullName>
+      <ecNumber evidence="4">1.17.4.1</ecNumber>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="5" type="ORF">HMPREF0636_0960</name>
+  </gene>
+  <organism evidence="5 6">
+    <name type="scientific">Porphyromonas catoniae ATCC 51270</name>
+    <dbReference type="NCBI Taxonomy" id="887901"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacteroidetes</taxon>
+      <taxon>Bacteroidia</taxon>
+      <taxon>Bacteroidales</taxon>
+      <taxon>Porphyromonadaceae</taxon>
+      <taxon>Porphyromonas</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="5 6" key="1">
+    <citation type="submission" date="2014-01" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Durkin A.S."/>
+        <person name="McCorrison J."/>
+        <person name="Torralba M."/>
+        <person name="Gillis M."/>
+        <person name="Haft D.H."/>
+        <person name="Methe B."/>
+        <person name="Sutton G."/>
+        <person name="Nelson K.E."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="5 6">ATCC 51270</strain>
+    </source>
+  </reference>
+  <comment type="cofactor">
+    <cofactor evidence="1">
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+    </cofactor>
+  </comment>
+  <comment type="pathway">
+    <text evidence="2">Genetic information processing; DNA replication.</text>
+  </comment>
+  <comment type="similarity">
+    <text evidence="3">Belongs to the ribonucleoside diphosphate reductase small chain family.</text>
+  </comment>
+  <comment type="caution">
+    <text evidence="5">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EC" id="1.17.4.1" evidence="4"/>
+  <dbReference type="EMBL" id="JDFF01000004">
+    <property type="protein sequence ID" value="EWC93557.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_044167702.1">
+    <property type="nucleotide sequence ID" value="NZ_JDFF01000004.1"/>
+  </dbReference>
+  <dbReference type="EnsemblBacteria" id="EWC93557">
+    <property type="protein sequence ID" value="EWC93557"/>
+    <property type="gene ID" value="HMPREF0636_0960"/>
+  </dbReference>
+  <dbReference type="PATRIC" id="fig|887901.3.peg.101"/>
+  <dbReference type="OrthoDB" id="1384440at2"/>
+  <dbReference type="UniPathway" id="UPA00326"/>
+  <dbReference type="Proteomes" id="UP000023482">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0004748">
+    <property type="term" value="F:ribonucleoside-diphosphate reductase activity, thioredoxin disulfide as acceptor"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-EC"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0009263">
+    <property type="term" value="P:deoxyribonucleotide biosynthetic process"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006260">
+    <property type="term" value="P:DNA replication"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-UniPathway"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd01049">
+    <property type="entry name" value="RNRR2"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.10.620.20">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR009078">
+    <property type="entry name" value="Ferritin-like_SF"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR012348">
+    <property type="entry name" value="RNR-like"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR033909">
+    <property type="entry name" value="RNR_small"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR000358">
+    <property type="entry name" value="RNR_small_fam"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR23409">
+    <property type="entry name" value="PTHR23409"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF00268">
+    <property type="entry name" value="Ribonuc_red_sm"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF47240">
+    <property type="entry name" value="SSF47240"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="inferred from homology"/>
+  <keyword evidence="5" id="KW-0560">Oxidoreductase</keyword>
+  <keyword evidence="6" id="KW-1185">Reference proteome</keyword>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="ARBA" id="ARBA00001962"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="2">
+    <source>
+      <dbReference type="ARBA" id="ARBA00005160"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="3">
+    <source>
+      <dbReference type="ARBA" id="ARBA00009303"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="4">
+    <source>
+      <dbReference type="ARBA" id="ARBA00012274"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="5">
+    <source>
+      <dbReference type="EMBL" id="EWC93557.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="6">
+    <source>
+      <dbReference type="Proteomes" id="UP000023482"/>
+    </source>
+  </evidence>
+  <sequence length="316" mass="37651" checksum="BF0CF29F4404E471" modified="2014-06-11" version="1">MIFDKRTEYKPFEYPEVQRFIDNMNRTFWVHSEVDFSDDIQDFKTLLTDEEREVIKRSLLAIAQVEVTVKTFWGKLYEFLPKPEFNDLGATFSESECRHSSAYARLLEVVGLEEEFKKLLDIPVFRRKLELTEEHLSSQQDFIHKLFFFTIVIENSSLFSQFANMVAFSHFKGILKNTANMVSWSSVDEQCHADAGVYIINKIFTEYPEMRLSTEEVERMVRHYLAYEEELLTWIYEPGELEFYSAKDMLSFMKYRVDNALTQMGYDKVYNISTEEYLPMQWFDEYVYANDLDDFFAKRPTAYTKHDRPITANDLF</sequence>
+</entry>
+<entry dataset="TrEMBL" created="2014-06-11" modified="2022-08-03" version="28" xmlns="http://uniprot.org/uniprot">
+  <accession>Z4WT18</accession>
+  <name>Z4WT18_9PORP</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="1">Ferritin</fullName>
+      <ecNumber evidence="1">1.16.3.2</ecNumber>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="3" type="ORF">HMPREF0636_0279</name>
+  </gene>
+  <organism evidence="3 4">
+    <name type="scientific">Porphyromonas catoniae ATCC 51270</name>
+    <dbReference type="NCBI Taxonomy" id="887901"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacteroidetes</taxon>
+      <taxon>Bacteroidia</taxon>
+      <taxon>Bacteroidales</taxon>
+      <taxon>Porphyromonadaceae</taxon>
+      <taxon>Porphyromonas</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="3 4" key="1">
+    <citation type="submission" date="2014-01" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Durkin A.S."/>
+        <person name="McCorrison J."/>
+        <person name="Torralba M."/>
+        <person name="Gillis M."/>
+        <person name="Haft D.H."/>
+        <person name="Methe B."/>
+        <person name="Sutton G."/>
+        <person name="Nelson K.E."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="3 4">ATCC 51270</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text evidence="1">Iron-storage protein.</text>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="1">
+      <text>4 Fe(2+) + 6 H2O + O2 = 12 H(+) + 4 iron(III) oxide-hydroxide</text>
+      <dbReference type="Rhea" id="RHEA:11972"/>
+      <dbReference type="ChEBI" id="CHEBI:15377"/>
+      <dbReference type="ChEBI" id="CHEBI:15378"/>
+      <dbReference type="ChEBI" id="CHEBI:15379"/>
+      <dbReference type="ChEBI" id="CHEBI:29033"/>
+      <dbReference type="ChEBI" id="CHEBI:78619"/>
+      <dbReference type="EC" id="1.16.3.2"/>
+    </reaction>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="1">Cytoplasm</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="similarity">
+    <text evidence="1">Belongs to the ferritin family. Prokaryotic subfamily.</text>
+  </comment>
+  <comment type="caution">
+    <text evidence="3">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EC" id="1.16.3.2" evidence="1"/>
+  <dbReference type="EMBL" id="JDFF01000020">
+    <property type="protein sequence ID" value="EWC91972.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_044169020.1">
+    <property type="nucleotide sequence ID" value="NZ_JDFF01000020.1"/>
+  </dbReference>
+  <dbReference type="EnsemblBacteria" id="EWC91972">
+    <property type="protein sequence ID" value="EWC91972"/>
+    <property type="gene ID" value="HMPREF0636_0279"/>
+  </dbReference>
+  <dbReference type="PATRIC" id="fig|887901.3.peg.1134"/>
+  <dbReference type="OrthoDB" id="1890523at2"/>
+  <dbReference type="Proteomes" id="UP000023482">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005737">
+    <property type="term" value="C:cytoplasm"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0008199">
+    <property type="term" value="F:ferric iron binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006879">
+    <property type="term" value="P:cellular iron ion homeostasis"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006826">
+    <property type="term" value="P:iron ion transport"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd01055">
+    <property type="entry name" value="Nonheme_Ferritin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.20.1260.10">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR001519">
+    <property type="entry name" value="Ferritin"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR012347">
+    <property type="entry name" value="Ferritin-like"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR009040">
+    <property type="entry name" value="Ferritin-like_diiron"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR009078">
+    <property type="entry name" value="Ferritin-like_SF"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR008331">
+    <property type="entry name" value="Ferritin_DPS_dom"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR041719">
+    <property type="entry name" value="Ferritin_prok"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR11431">
+    <property type="entry name" value="PTHR11431"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF00210">
+    <property type="entry name" value="Ferritin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF47240">
+    <property type="entry name" value="SSF47240"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS50905">
+    <property type="entry name" value="FERRITIN_LIKE"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="inferred from homology"/>
+  <keyword evidence="1" id="KW-0963">Cytoplasm</keyword>
+  <keyword evidence="1" id="KW-0408">Iron</keyword>
+  <keyword evidence="1" id="KW-0409">Iron storage</keyword>
+  <keyword evidence="1" id="KW-0479">Metal-binding</keyword>
+  <keyword evidence="4" id="KW-1185">Reference proteome</keyword>
+  <feature type="domain" description="Ferritin-like diiron" evidence="2">
+    <location>
+      <begin position="1"/>
+      <end position="146"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="RuleBase" id="RU361145"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000259" key="2">
+    <source>
+      <dbReference type="PROSITE" id="PS50905"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="EMBL" id="EWC91972.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="4">
+    <source>
+      <dbReference type="Proteomes" id="UP000023482"/>
+    </source>
+  </evidence>
+  <sequence length="160" mass="18440" checksum="F78B28EEF4142543" modified="2014-06-11" version="1">MKFTEKMQTAINAQIALEMWSANIYLSMSAYFAQQGLDGFAHWYHQQYKEELEHAEDMMHYIIQRGGKVKIQSIPAVETEFASALEVAEKAYAHECLVSEKIEELVRLASAEADMPSQDFFWKYIREQVEEEATASNIVDRVRLASDHAIIFLDKELASR</sequence>
+</entry>
+<entry dataset="TrEMBL" created="2014-06-11" modified="2022-10-12" version="17" xmlns="http://uniprot.org/uniprot">
+  <accession>Y0KHY0</accession>
+  <name>Y0KHY0_9PROT</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="1">Ferritin</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="2" type="ORF">Meth11DRAFT_1572</name>
+  </gene>
+  <organism evidence="2 3">
+    <name type="scientific">Methylophilaceae bacterium 11</name>
+    <dbReference type="NCBI Taxonomy" id="1101195"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Proteobacteria</taxon>
+      <taxon>Betaproteobacteria</taxon>
+      <taxon>Nitrosomonadales</taxon>
+      <taxon>Methylophilaceae</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="2 3" key="1">
+    <citation type="submission" date="2013-07" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <consortium name="DOE Joint Genome Institute"/>
+        <person name="Chistoserdova L."/>
+        <person name="Huntemann M."/>
+        <person name="Han J."/>
+        <person name="Chen A."/>
+        <person name="Kyrpides N."/>
+        <person name="Mavromatis K."/>
+        <person name="Markowitz V."/>
+        <person name="Palaniappan K."/>
+        <person name="Ivanova N."/>
+        <person name="Schaumberg A."/>
+        <person name="Pati A."/>
+        <person name="Liolios K."/>
+        <person name="Nordberg H.P."/>
+        <person name="Cantor M.N."/>
+        <person name="Hua S.X."/>
+        <person name="Woyke T."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="2 3">11</strain>
+    </source>
+  </reference>
+  <comment type="caution">
+    <text evidence="2">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="JCKJ01000001">
+    <property type="protein sequence ID" value="EUJ10744.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_020182219.1">
+    <property type="nucleotide sequence ID" value="NZ_JCKJ01000001.1"/>
+  </dbReference>
+  <dbReference type="STRING" id="1101195.Meth11DRAFT_1572"/>
+  <dbReference type="EnsemblBacteria" id="EUJ10744">
+    <property type="protein sequence ID" value="EUJ10744"/>
+    <property type="gene ID" value="Meth11DRAFT_1572"/>
+  </dbReference>
+  <dbReference type="PATRIC" id="fig|1101195.3.peg.1532"/>
+  <dbReference type="eggNOG" id="COG3461">
+    <property type="taxonomic scope" value="Bacteria"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000022668">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0140737">
+    <property type="term" value="C:encapsulin nanocompartment"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0004322">
+    <property type="term" value="F:ferroxidase activity"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR030907">
+    <property type="entry name" value="Ferrit_encaps"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR009078">
+    <property type="entry name" value="Ferritin-like_SF"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF47240">
+    <property type="entry name" value="SSF47240"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="TIGRFAMs" id="TIGR04535">
+    <property type="entry name" value="ferrit_encaps"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <keyword evidence="3" id="KW-1185">Reference proteome</keyword>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="Google" id="UnProtein"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="EUJ10744.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="Proteomes" id="UP000022668"/>
+    </source>
+  </evidence>
+  <sequence length="95" mass="11315" checksum="8443CFD45E4D581E" modified="2014-06-11" version="1">MSNEGYHEPISELTDETRDMHRAITSLMEELEAVDWYNQRVDACKNKDLKAILAHNRDEEKEHAAMVLEWIRRQDPSFDKQLKDYLFTEKPIAHK</sequence>
+</entry>
+<entry dataset="TrEMBL" created="2014-06-11" modified="2021-06-02" version="24" xmlns="http://uniprot.org/uniprot">
+  <accession>Y0KHL6</accession>
+  <name>Y0KHL6_9PROT</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="4">DNA-binding ferritin-like protein (Oxidative damage protectant)</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="4" type="ORF">Meth11DRAFT_1616</name>
+  </gene>
+  <organism evidence="4 5">
+    <name type="scientific">Methylophilaceae bacterium 11</name>
+    <dbReference type="NCBI Taxonomy" id="1101195"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Proteobacteria</taxon>
+      <taxon>Betaproteobacteria</taxon>
+      <taxon>Nitrosomonadales</taxon>
+      <taxon>Methylophilaceae</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="4 5" key="1">
+    <citation type="submission" date="2013-07" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <consortium name="DOE Joint Genome Institute"/>
+        <person name="Chistoserdova L."/>
+        <person name="Huntemann M."/>
+        <person name="Han J."/>
+        <person name="Chen A."/>
+        <person name="Kyrpides N."/>
+        <person name="Mavromatis K."/>
+        <person name="Markowitz V."/>
+        <person name="Palaniappan K."/>
+        <person name="Ivanova N."/>
+        <person name="Schaumberg A."/>
+        <person name="Pati A."/>
+        <person name="Liolios K."/>
+        <person name="Nordberg H.P."/>
+        <person name="Cantor M.N."/>
+        <person name="Hua S.X."/>
+        <person name="Woyke T."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="4 5">11</strain>
+    </source>
+  </reference>
+  <comment type="similarity">
+    <text evidence="1 2">Belongs to the Dps family.</text>
+  </comment>
+  <comment type="caution">
+    <text evidence="4">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="JCKJ01000001">
+    <property type="protein sequence ID" value="EUJ10788.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_020182263.1">
+    <property type="nucleotide sequence ID" value="NZ_JCKJ01000001.1"/>
+  </dbReference>
+  <dbReference type="STRING" id="1101195.Meth11DRAFT_1616"/>
+  <dbReference type="EnsemblBacteria" id="EUJ10788">
+    <property type="protein sequence ID" value="EUJ10788"/>
+    <property type="gene ID" value="Meth11DRAFT_1616"/>
+  </dbReference>
+  <dbReference type="PATRIC" id="fig|1101195.3.peg.1576"/>
+  <dbReference type="eggNOG" id="COG0783">
+    <property type="taxonomic scope" value="Bacteria"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000022668">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0003677">
+    <property type="term" value="F:DNA binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0008199">
+    <property type="term" value="F:ferric iron binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0016722">
+    <property type="term" value="F:oxidoreductase activity, acting on metal ions"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd01043">
+    <property type="entry name" value="DPS"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.20.1260.10">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR002177">
+    <property type="entry name" value="DPS_DNA-bd"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR023188">
+    <property type="entry name" value="DPS_DNA-bd_CS"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR012347">
+    <property type="entry name" value="Ferritin-like"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR009078">
+    <property type="entry name" value="Ferritin-like_SF"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR008331">
+    <property type="entry name" value="Ferritin_DPS_dom"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR42932">
+    <property type="entry name" value="PTHR42932"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF00210">
+    <property type="entry name" value="Ferritin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PIRSF" id="PIRSF005900">
+    <property type="entry name" value="Dps"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PRINTS" id="PR01346">
+    <property type="entry name" value="HELNAPAPROT"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF47240">
+    <property type="entry name" value="SSF47240"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS00818">
+    <property type="entry name" value="DPS_1"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS00819">
+    <property type="entry name" value="DPS_2"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="inferred from homology"/>
+  <keyword evidence="4" id="KW-0238">DNA-binding</keyword>
+  <keyword evidence="5" id="KW-1185">Reference proteome</keyword>
+  <feature type="domain" description="Ferritin" evidence="3">
+    <location>
+      <begin position="15"/>
+      <end position="153"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="ARBA" id="ARBA00009497"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="2">
+    <source>
+      <dbReference type="RuleBase" id="RU003875"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000259" key="3">
+    <source>
+      <dbReference type="Pfam" id="PF00210"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="4">
+    <source>
+      <dbReference type="EMBL" id="EUJ10788.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="5">
+    <source>
+      <dbReference type="Proteomes" id="UP000022668"/>
+    </source>
+  </evidence>
+  <sequence length="153" mass="17217" checksum="FC01D0BE48F53B59" modified="2014-06-11" version="1">MDTGIKPQDRKVIAEGLSKLLADTYTLYLKTHYFHWNVTGPMFNTLHLMFETQYTELALAVDLVAERIRALDVYAPGTYSQFSKLTSIQETIDVPKANDMIKELVAGHEAVCRTARSVFPAADAAADEATADLLTQRLQLHEKTAWMLRSLLE</sequence>
+</entry>
+<entry dataset="TrEMBL" created="2014-06-11" modified="2022-10-12" version="17" xmlns="http://uniprot.org/uniprot">
+  <accession>Y0KFC7</accession>
+  <name>Y0KFC7_9PROT</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="1">Ferritin-like domain-containing protein</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="2" type="ORF">Meth11DRAFT_0756</name>
+  </gene>
+  <organism evidence="2 3">
+    <name type="scientific">Methylophilaceae bacterium 11</name>
+    <dbReference type="NCBI Taxonomy" id="1101195"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Proteobacteria</taxon>
+      <taxon>Betaproteobacteria</taxon>
+      <taxon>Nitrosomonadales</taxon>
+      <taxon>Methylophilaceae</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="2 3" key="1">
+    <citation type="submission" date="2013-07" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <consortium name="DOE Joint Genome Institute"/>
+        <person name="Chistoserdova L."/>
+        <person name="Huntemann M."/>
+        <person name="Han J."/>
+        <person name="Chen A."/>
+        <person name="Kyrpides N."/>
+        <person name="Mavromatis K."/>
+        <person name="Markowitz V."/>
+        <person name="Palaniappan K."/>
+        <person name="Ivanova N."/>
+        <person name="Schaumberg A."/>
+        <person name="Pati A."/>
+        <person name="Liolios K."/>
+        <person name="Nordberg H.P."/>
+        <person name="Cantor M.N."/>
+        <person name="Hua S.X."/>
+        <person name="Woyke T."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="2 3">11</strain>
+    </source>
+  </reference>
+  <comment type="caution">
+    <text evidence="2">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="JCKJ01000001">
+    <property type="protein sequence ID" value="EUJ09952.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_020184034.1">
+    <property type="nucleotide sequence ID" value="NZ_JCKJ01000001.1"/>
+  </dbReference>
+  <dbReference type="STRING" id="1101195.Meth11DRAFT_0756"/>
+  <dbReference type="EnsemblBacteria" id="EUJ09952">
+    <property type="protein sequence ID" value="EUJ09952"/>
+    <property type="gene ID" value="Meth11DRAFT_0756"/>
+  </dbReference>
+  <dbReference type="PATRIC" id="fig|1101195.3.peg.738"/>
+  <dbReference type="eggNOG" id="COG2833">
+    <property type="taxonomic scope" value="Bacteria"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000022668">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR007402">
+    <property type="entry name" value="DUF455"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR009078">
+    <property type="entry name" value="Ferritin-like_SF"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR011197">
+    <property type="entry name" value="UCP012318"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF04305">
+    <property type="entry name" value="DUF455"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PIRSF" id="PIRSF012318">
+    <property type="entry name" value="UCP012318"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF47240">
+    <property type="entry name" value="SSF47240"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <keyword evidence="3" id="KW-1185">Reference proteome</keyword>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="Google" id="UnProtein"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="EUJ09952.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="Proteomes" id="UP000022668"/>
+    </source>
+  </evidence>
+  <sequence length="270" mass="30687" checksum="E7978286C211C270" modified="2014-06-11" version="1">MKNNCTLDPIELRQTALNWLTARDASRKANGVLLLQKTFIADGLSLDIDQSIINREPIPGRPDKPELVSPLSVQKRSMRTVEGRAALIHALAHIEFNAINLALDAIWRFAQMPEQYYTDWLKVAAEEAYHFSLLNQHLQSMGYQYGDFLGHNSLWEMVERTQDDVLARMALVPRTMEARGLDASPALRNKLAQAGDMAAAEILDIILRDEIGHVAIGNHWYNWLCVQRDLAPIETFERLCQQYQAPKLRPPFNIEARRLAGFSEDELALL</sequence>
+</entry>
+<entry dataset="TrEMBL" created="2014-06-11" modified="2022-10-12" version="39" xmlns="http://uniprot.org/uniprot">
+  <accession>Y0KFC2</accession>
+  <name>Y0KFC2_9PROT</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="7">3-demethoxyubiquinol 3-hydroxylase</fullName>
+      <shortName evidence="7">DMQ hydroxylase</shortName>
+      <ecNumber evidence="7">1.14.99.60</ecNumber>
+    </recommendedName>
+    <alternativeName>
+      <fullName evidence="7">2-nonaprenyl-3-methyl-6-methoxy-1,4-benzoquinol hydroxylase</fullName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name evidence="7" type="primary">coq7</name>
+    <name evidence="8" type="ORF">Meth11DRAFT_0469</name>
+  </gene>
+  <organism evidence="8 9">
+    <name type="scientific">Methylophilaceae bacterium 11</name>
+    <dbReference type="NCBI Taxonomy" id="1101195"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Proteobacteria</taxon>
+      <taxon>Betaproteobacteria</taxon>
+      <taxon>Nitrosomonadales</taxon>
+      <taxon>Methylophilaceae</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="8 9" key="1">
+    <citation type="submission" date="2013-07" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <consortium name="DOE Joint Genome Institute"/>
+        <person name="Chistoserdova L."/>
+        <person name="Huntemann M."/>
+        <person name="Han J."/>
+        <person name="Chen A."/>
+        <person name="Kyrpides N."/>
+        <person name="Mavromatis K."/>
+        <person name="Markowitz V."/>
+        <person name="Palaniappan K."/>
+        <person name="Ivanova N."/>
+        <person name="Schaumberg A."/>
+        <person name="Pati A."/>
+        <person name="Liolios K."/>
+        <person name="Nordberg H.P."/>
+        <person name="Cantor M.N."/>
+        <person name="Hua S.X."/>
+        <person name="Woyke T."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="8 9">11</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text evidence="7">Catalyzes the hydroxylation of 2-nonaprenyl-3-methyl-6-methoxy-1,4-benzoquinol during ubiquinone biosynthesis.</text>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="7">
+      <text>a 6-methoxy-3-methyl-2-all-trans-polyprenyl-1,4-benzoquinol + AH2 + O2 = A + a 3-demethylubiquinol + H2O</text>
+      <dbReference type="Rhea" id="RHEA:50908"/>
+      <dbReference type="Rhea" id="RHEA-COMP:10859"/>
+      <dbReference type="Rhea" id="RHEA-COMP:10914"/>
+      <dbReference type="ChEBI" id="CHEBI:13193"/>
+      <dbReference type="ChEBI" id="CHEBI:15377"/>
+      <dbReference type="ChEBI" id="CHEBI:15379"/>
+      <dbReference type="ChEBI" id="CHEBI:17499"/>
+      <dbReference type="ChEBI" id="CHEBI:84167"/>
+      <dbReference type="ChEBI" id="CHEBI:84422"/>
+      <dbReference type="EC" id="1.14.99.60"/>
+    </reaction>
+  </comment>
+  <comment type="cofactor">
+    <cofactor evidence="7">
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+    </cofactor>
+    <text evidence="7">Binds 2 iron ions per subunit.</text>
+  </comment>
+  <comment type="pathway">
+    <text evidence="7">Cofactor biosynthesis; ubiquinone biosynthesis.</text>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="7">Cell membrane</location>
+      <topology evidence="7">Peripheral membrane protein</topology>
+    </subcellularLocation>
+  </comment>
+  <comment type="similarity">
+    <text evidence="7">Belongs to the COQ7 family.</text>
+  </comment>
+  <comment type="caution">
+    <text evidence="8">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EC" id="1.14.99.60" evidence="7"/>
+  <dbReference type="EMBL" id="JCKJ01000001">
+    <property type="protein sequence ID" value="EUJ09670.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_020183743.1">
+    <property type="nucleotide sequence ID" value="NZ_JCKJ01000001.1"/>
+  </dbReference>
+  <dbReference type="STRING" id="1101195.Meth11DRAFT_0469"/>
+  <dbReference type="EnsemblBacteria" id="EUJ09670">
+    <property type="protein sequence ID" value="EUJ09670"/>
+    <property type="gene ID" value="Meth11DRAFT_0469"/>
+  </dbReference>
+  <dbReference type="PATRIC" id="fig|1101195.3.peg.450"/>
+  <dbReference type="eggNOG" id="COG2941">
+    <property type="taxonomic scope" value="Bacteria"/>
+  </dbReference>
+  <dbReference type="UniPathway" id="UPA00232"/>
+  <dbReference type="Proteomes" id="UP000022668">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005886">
+    <property type="term" value="C:plasma membrane"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0008682">
+    <property type="term" value="F:3-demethoxyubiquinol 3-hydroxylase activity"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-EC"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0046872">
+    <property type="term" value="F:metal ion binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006744">
+    <property type="term" value="P:ubiquinone biosynthetic process"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-UniRule"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd01042">
+    <property type="entry name" value="DMQH"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.20.1260.10">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="HAMAP" id="MF_01658">
+    <property type="entry name" value="COQ7"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR012347">
+    <property type="entry name" value="Ferritin-like"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR009078">
+    <property type="entry name" value="Ferritin-like_SF"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR011566">
+    <property type="entry name" value="Ubq_synth_Coq7"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR11237">
+    <property type="entry name" value="PTHR11237"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF47240">
+    <property type="entry name" value="SSF47240"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="inferred from homology"/>
+  <keyword evidence="7" id="KW-1003">Cell membrane</keyword>
+  <keyword evidence="4 7" id="KW-0408">Iron</keyword>
+  <keyword evidence="6 7" id="KW-0472">Membrane</keyword>
+  <keyword evidence="2 7" id="KW-0479">Metal-binding</keyword>
+  <keyword evidence="5 7" id="KW-0503">Monooxygenase</keyword>
+  <keyword evidence="3 7" id="KW-0560">Oxidoreductase</keyword>
+  <keyword evidence="9" id="KW-1185">Reference proteome</keyword>
+  <keyword evidence="8" id="KW-0830">Ubiquinone</keyword>
+  <keyword evidence="1 7" id="KW-0831">Ubiquinone biosynthesis</keyword>
+  <feature type="binding site" evidence="7">
+    <location>
+      <position position="56"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>1</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="7">
+    <location>
+      <position position="86"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>2</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="7">
+    <location>
+      <position position="86"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>1</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="7">
+    <location>
+      <position position="89"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>1</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="7">
+    <location>
+      <position position="138"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>2</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="7">
+    <location>
+      <position position="170"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>2</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="7">
+    <location>
+      <position position="170"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>1</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="7">
+    <location>
+      <position position="173"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>2</label>
+    </ligand>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="ARBA" id="ARBA00022688"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="2">
+    <source>
+      <dbReference type="ARBA" id="ARBA00022723"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="3">
+    <source>
+      <dbReference type="ARBA" id="ARBA00023002"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="4">
+    <source>
+      <dbReference type="ARBA" id="ARBA00023004"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="5">
+    <source>
+      <dbReference type="ARBA" id="ARBA00023033"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="6">
+    <source>
+      <dbReference type="ARBA" id="ARBA00023136"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="7">
+    <source>
+      <dbReference type="HAMAP-Rule" id="MF_01658"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="8">
+    <source>
+      <dbReference type="EMBL" id="EUJ09670.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="9">
+    <source>
+      <dbReference type="Proteomes" id="UP000022668"/>
+    </source>
+  </evidence>
+  <sequence length="207" mass="22598" checksum="6229C31F0722BF65" modified="2014-06-11" version="1">MMIDRLITTFDTGLRTLFAQPVASRARPDGNTEEAPLSTAEKNQAAALMRINHVGEVCAQALYSGQAFVSRDATIVNALKQAATEETDHLAWCEGRIHELGGRKSLLNPLWYVGSFGLGTVAGLLGDRWNLGFLAETEKQVEAHLASHLEVLSPADHKTRKIVAQMQADEREHADTAHQLGGVALPIPVQFGMKFASKIMTKTAYYV</sequence>
+</entry>
+<entry dataset="TrEMBL" created="2014-06-11" modified="2022-10-12" version="36" xmlns="http://uniprot.org/uniprot">
+  <accession>Y0KF65</accession>
+  <name>Y0KF65_9PROT</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="3">Ribonucleoside-diphosphate reductase subunit beta</fullName>
+      <ecNumber evidence="3">1.17.4.1</ecNumber>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="7" type="ORF">Meth11DRAFT_0717</name>
+  </gene>
+  <organism evidence="7 8">
+    <name type="scientific">Methylophilaceae bacterium 11</name>
+    <dbReference type="NCBI Taxonomy" id="1101195"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Proteobacteria</taxon>
+      <taxon>Betaproteobacteria</taxon>
+      <taxon>Nitrosomonadales</taxon>
+      <taxon>Methylophilaceae</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="7 8" key="1">
+    <citation type="submission" date="2013-07" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <consortium name="DOE Joint Genome Institute"/>
+        <person name="Chistoserdova L."/>
+        <person name="Huntemann M."/>
+        <person name="Han J."/>
+        <person name="Chen A."/>
+        <person name="Kyrpides N."/>
+        <person name="Mavromatis K."/>
+        <person name="Markowitz V."/>
+        <person name="Palaniappan K."/>
+        <person name="Ivanova N."/>
+        <person name="Schaumberg A."/>
+        <person name="Pati A."/>
+        <person name="Liolios K."/>
+        <person name="Nordberg H.P."/>
+        <person name="Cantor M.N."/>
+        <person name="Hua S.X."/>
+        <person name="Woyke T."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="7 8">11</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text evidence="3">Provides the precursors necessary for DNA synthesis. Catalyzes the biosynthesis of deoxyribonucleotides from the corresponding ribonucleotides.</text>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="3">
+      <text>[thioredoxin]-disulfide + a 2'-deoxyribonucleoside 5'-diphosphate + H2O = [thioredoxin]-dithiol + a ribonucleoside 5'-diphosphate</text>
+      <dbReference type="Rhea" id="RHEA:23252"/>
+      <dbReference type="Rhea" id="RHEA-COMP:10698"/>
+      <dbReference type="Rhea" id="RHEA-COMP:10700"/>
+      <dbReference type="ChEBI" id="CHEBI:15377"/>
+      <dbReference type="ChEBI" id="CHEBI:29950"/>
+      <dbReference type="ChEBI" id="CHEBI:50058"/>
+      <dbReference type="ChEBI" id="CHEBI:57930"/>
+      <dbReference type="ChEBI" id="CHEBI:73316"/>
+      <dbReference type="EC" id="1.17.4.1"/>
+    </reaction>
+  </comment>
+  <comment type="cofactor">
+    <cofactor evidence="3 5">
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+    </cofactor>
+    <text evidence="3 5">Binds 2 iron ions per subunit.</text>
+  </comment>
+  <comment type="pathway">
+    <text evidence="1 3">Genetic information processing; DNA replication.</text>
+  </comment>
+  <comment type="similarity">
+    <text evidence="2 3">Belongs to the ribonucleoside diphosphate reductase small chain family.</text>
+  </comment>
+  <comment type="caution">
+    <text evidence="7">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EC" id="1.17.4.1" evidence="3"/>
+  <dbReference type="EMBL" id="JCKJ01000001">
+    <property type="protein sequence ID" value="EUJ09913.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_025223883.1">
+    <property type="nucleotide sequence ID" value="NZ_JCKJ01000001.1"/>
+  </dbReference>
+  <dbReference type="STRING" id="1101195.Meth11DRAFT_0717"/>
+  <dbReference type="EnsemblBacteria" id="EUJ09913">
+    <property type="protein sequence ID" value="EUJ09913"/>
+    <property type="gene ID" value="Meth11DRAFT_0717"/>
+  </dbReference>
+  <dbReference type="PATRIC" id="fig|1101195.3.peg.699"/>
+  <dbReference type="eggNOG" id="COG0208">
+    <property type="taxonomic scope" value="Bacteria"/>
+  </dbReference>
+  <dbReference type="UniPathway" id="UPA00326"/>
+  <dbReference type="Proteomes" id="UP000022668">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0016021">
+    <property type="term" value="C:integral component of membrane"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0046872">
+    <property type="term" value="F:metal ion binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0004748">
+    <property type="term" value="F:ribonucleoside-diphosphate reductase activity, thioredoxin disulfide as acceptor"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-EC"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0009263">
+    <property type="term" value="P:deoxyribonucleotide biosynthetic process"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006260">
+    <property type="term" value="P:DNA replication"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-UniPathway"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd01049">
+    <property type="entry name" value="RNRR2"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.10.620.20">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR009078">
+    <property type="entry name" value="Ferritin-like_SF"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR012348">
+    <property type="entry name" value="RNR-like"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR033909">
+    <property type="entry name" value="RNR_small"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR000358">
+    <property type="entry name" value="RNR_small_fam"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR23409">
+    <property type="entry name" value="PTHR23409"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF00268">
+    <property type="entry name" value="Ribonuc_red_sm"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PIRSF" id="PIRSF000355">
+    <property type="entry name" value="NrdB"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF47240">
+    <property type="entry name" value="SSF47240"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="inferred from homology"/>
+  <keyword evidence="3" id="KW-0215">Deoxyribonucleotide synthesis</keyword>
+  <keyword evidence="3 5" id="KW-0408">Iron</keyword>
+  <keyword evidence="6" id="KW-0472">Membrane</keyword>
+  <keyword evidence="3 5" id="KW-0479">Metal-binding</keyword>
+  <keyword evidence="3" id="KW-0560">Oxidoreductase</keyword>
+  <keyword evidence="8" id="KW-1185">Reference proteome</keyword>
+  <keyword evidence="6" id="KW-0812">Transmembrane</keyword>
+  <keyword evidence="6" id="KW-1133">Transmembrane helix</keyword>
+  <feature type="transmembrane region" description="Helical" evidence="6">
+    <location>
+      <begin position="214"/>
+      <end position="236"/>
+    </location>
+  </feature>
+  <feature type="active site" evidence="4">
+    <location>
+      <position position="156"/>
+    </location>
+  </feature>
+  <feature type="binding site" evidence="5">
+    <location>
+      <position position="118"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>1</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="5">
+    <location>
+      <position position="149"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>1</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="5">
+    <location>
+      <position position="149"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>2</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="5">
+    <location>
+      <position position="152"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>1</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="5">
+    <location>
+      <position position="222"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>2</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="5">
+    <location>
+      <position position="256"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>2</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="5">
+    <location>
+      <position position="259"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>2</label>
+    </ligand>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="ARBA" id="ARBA00005160"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="2">
+    <source>
+      <dbReference type="ARBA" id="ARBA00009303"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="3">
+    <source>
+      <dbReference type="PIRNR" id="PIRNR000355"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="4">
+    <source>
+      <dbReference type="PIRSR" id="PIRSR000355-1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="5">
+    <source>
+      <dbReference type="PIRSR" id="PIRSR000355-2"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="6">
+    <source>
+      <dbReference type="SAM" id="Phobius"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="7">
+    <source>
+      <dbReference type="EMBL" id="EUJ09913.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="8">
+    <source>
+      <dbReference type="Proteomes" id="UP000022668"/>
+    </source>
+  </evidence>
+  <sequence length="377" mass="43071" checksum="9CABBCF38906F3E8" modified="2014-06-11" version="1">MLSFDEDIVQEAATPNLTVVERKPAPPAPSLAANQPAFTGRVNANDKRMINGQTDVNQLVPFKYHWAWDKYLAGCANHWMPQEVSMSRDIAQWKDSTALTEDERLIVKRNLGFFTTADSLAANNIVLGTYRHITAPECRQYLLRQGFEEAIHTHAYQYIVESLGLDESEVFNAYQEVASIKAKDDFLIPFINTLTDPAFKTGTPEADQQLLRSLIVFACIMEGLFFYVGFVQILALGRQNKMQGAAEQYQYILRDESMHCNFGIDVINTIKLENPHLWTAEFRDEIRSLIQHGVELEYQYAEATMPRGVLGLNATMFKEYLRFIANRRCQQIGLDALYPGATNPFPWMSEMMDLKKEKNFFETRVTEYQTGGALSWD</sequence>
+</entry>
+<entry dataset="TrEMBL" created="2014-06-11" modified="2020-12-02" version="21" xmlns="http://uniprot.org/uniprot">
+  <accession>Y0KEW5</accession>
+  <name>Y0KEW5_9PROT</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="2">Bacterioferritin (Cytochrome b1)</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="2" type="ORF">Meth11DRAFT_0473</name>
+  </gene>
+  <organism evidence="2 3">
+    <name type="scientific">Methylophilaceae bacterium 11</name>
+    <dbReference type="NCBI Taxonomy" id="1101195"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Proteobacteria</taxon>
+      <taxon>Betaproteobacteria</taxon>
+      <taxon>Nitrosomonadales</taxon>
+      <taxon>Methylophilaceae</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="2 3" key="1">
+    <citation type="submission" date="2013-07" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <consortium name="DOE Joint Genome Institute"/>
+        <person name="Chistoserdova L."/>
+        <person name="Huntemann M."/>
+        <person name="Han J."/>
+        <person name="Chen A."/>
+        <person name="Kyrpides N."/>
+        <person name="Mavromatis K."/>
+        <person name="Markowitz V."/>
+        <person name="Palaniappan K."/>
+        <person name="Ivanova N."/>
+        <person name="Schaumberg A."/>
+        <person name="Pati A."/>
+        <person name="Liolios K."/>
+        <person name="Nordberg H.P."/>
+        <person name="Cantor M.N."/>
+        <person name="Hua S.X."/>
+        <person name="Woyke T."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="2 3">11</strain>
+    </source>
+  </reference>
+  <comment type="caution">
+    <text evidence="2">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="JCKJ01000001">
+    <property type="protein sequence ID" value="EUJ09674.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_020183747.1">
+    <property type="nucleotide sequence ID" value="NZ_JCKJ01000001.1"/>
+  </dbReference>
+  <dbReference type="STRING" id="1101195.Meth11DRAFT_0473"/>
+  <dbReference type="EnsemblBacteria" id="EUJ09674">
+    <property type="protein sequence ID" value="EUJ09674"/>
+    <property type="gene ID" value="Meth11DRAFT_0473"/>
+  </dbReference>
+  <dbReference type="PATRIC" id="fig|1101195.3.peg.454"/>
+  <dbReference type="eggNOG" id="COG2193">
+    <property type="taxonomic scope" value="Bacteria"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000022668">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0008199">
+    <property type="term" value="F:ferric iron binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.20.1260.10">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR012347">
+    <property type="entry name" value="Ferritin-like"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR009040">
+    <property type="entry name" value="Ferritin-like_diiron"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR009078">
+    <property type="entry name" value="Ferritin-like_SF"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR008331">
+    <property type="entry name" value="Ferritin_DPS_dom"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF00210">
+    <property type="entry name" value="Ferritin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF47240">
+    <property type="entry name" value="SSF47240"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS50905">
+    <property type="entry name" value="FERRITIN_LIKE"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <keyword evidence="3" id="KW-1185">Reference proteome</keyword>
+  <feature type="domain" description="Ferritin-like diiron" evidence="1">
+    <location>
+      <begin position="5"/>
+      <end position="149"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000259" key="1">
+    <source>
+      <dbReference type="PROSITE" id="PS50905"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="EUJ09674.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="Proteomes" id="UP000022668"/>
+    </source>
+  </evidence>
+  <sequence length="153" mass="17042" checksum="7D1701C754CDB4AD" modified="2014-06-11" version="1">MATDHAASTPVVKALNTILEFELAGVVRYTHYALMVFGYNRIPIVSWLRSQAAESLTHADKAGELITHLGGHPSLSIGPLLETHNHDIGDILRESLAHETAALNSYKALLKLVEGESVMLEEYAREMIYQEELHLGEVDKMLRKPGEIAKFHE</sequence>
+</entry>
+<entry dataset="TrEMBL" created="2014-06-11" modified="2022-10-12" version="33" xmlns="http://uniprot.org/uniprot">
+  <accession>X8KIG4</accession>
+  <name>X8KIG4_9STRE</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="4">Ribonucleoside-diphosphate reductase subunit beta</fullName>
+      <ecNumber evidence="4">1.17.4.1</ecNumber>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="7" type="primary">nrdF</name>
+    <name evidence="7" type="ORF">HMPREF1516_1354</name>
+  </gene>
+  <organism evidence="7 8">
+    <name type="scientific">Streptococcus sp. CM6</name>
+    <dbReference type="NCBI Taxonomy" id="936580"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Firmicutes</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Streptococcaceae</taxon>
+      <taxon>Streptococcus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="7 8" key="1">
+    <citation type="submission" date="2014-01" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Durkin A.S."/>
+        <person name="McCorrison J."/>
+        <person name="Torralba M."/>
+        <person name="Gillis M."/>
+        <person name="Haft D.H."/>
+        <person name="Methe B."/>
+        <person name="Sutton G."/>
+        <person name="Nelson K.E."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="7 8">CM6</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text evidence="4">Provides the precursors necessary for DNA synthesis. Catalyzes the biosynthesis of deoxyribonucleotides from the corresponding ribonucleotides.</text>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="4">
+      <text>[thioredoxin]-disulfide + a 2'-deoxyribonucleoside 5'-diphosphate + H2O = [thioredoxin]-dithiol + a ribonucleoside 5'-diphosphate</text>
+      <dbReference type="Rhea" id="RHEA:23252"/>
+      <dbReference type="Rhea" id="RHEA-COMP:10698"/>
+      <dbReference type="Rhea" id="RHEA-COMP:10700"/>
+      <dbReference type="ChEBI" id="CHEBI:15377"/>
+      <dbReference type="ChEBI" id="CHEBI:29950"/>
+      <dbReference type="ChEBI" id="CHEBI:50058"/>
+      <dbReference type="ChEBI" id="CHEBI:57930"/>
+      <dbReference type="ChEBI" id="CHEBI:73316"/>
+      <dbReference type="EC" id="1.17.4.1"/>
+    </reaction>
+  </comment>
+  <comment type="cofactor">
+    <cofactor evidence="4 6">
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+    </cofactor>
+    <text evidence="4 6">Binds 2 iron ions per subunit.</text>
+  </comment>
+  <comment type="pathway">
+    <text evidence="1 4">Genetic information processing; DNA replication.</text>
+  </comment>
+  <comment type="subunit">
+    <text evidence="3">Tetramer of two alpha and two beta subunits.</text>
+  </comment>
+  <comment type="similarity">
+    <text evidence="2 4">Belongs to the ribonucleoside diphosphate reductase small chain family.</text>
+  </comment>
+  <comment type="caution">
+    <text evidence="7">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EC" id="1.17.4.1" evidence="4"/>
+  <dbReference type="EMBL" id="JATS01000006">
+    <property type="protein sequence ID" value="EUC82451.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_033605642.1">
+    <property type="nucleotide sequence ID" value="NZ_JATS01000006.1"/>
+  </dbReference>
+  <dbReference type="STRING" id="936580.HMPREF1516_1354"/>
+  <dbReference type="EnsemblBacteria" id="EUC82451">
+    <property type="protein sequence ID" value="EUC82451"/>
+    <property type="gene ID" value="HMPREF1516_1354"/>
+  </dbReference>
+  <dbReference type="PATRIC" id="fig|936580.3.peg.284"/>
+  <dbReference type="eggNOG" id="COG0208">
+    <property type="taxonomic scope" value="Bacteria"/>
+  </dbReference>
+  <dbReference type="UniPathway" id="UPA00326"/>
+  <dbReference type="Proteomes" id="UP000022386">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005971">
+    <property type="term" value="C:ribonucleoside-diphosphate reductase complex"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0046872">
+    <property type="term" value="F:metal ion binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0004748">
+    <property type="term" value="F:ribonucleoside-diphosphate reductase activity, thioredoxin disulfide as acceptor"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-EC"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0009263">
+    <property type="term" value="P:deoxyribonucleotide biosynthetic process"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006260">
+    <property type="term" value="P:DNA replication"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-UniPathway"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd01049">
+    <property type="entry name" value="RNRR2"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.10.620.20">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR009078">
+    <property type="entry name" value="Ferritin-like_SF"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR012348">
+    <property type="entry name" value="RNR-like"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR026494">
+    <property type="entry name" value="RNR_NrdF-like"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR033909">
+    <property type="entry name" value="RNR_small"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR000358">
+    <property type="entry name" value="RNR_small_fam"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR23409">
+    <property type="entry name" value="PTHR23409"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF00268">
+    <property type="entry name" value="Ribonuc_red_sm"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PIRSF" id="PIRSF000355">
+    <property type="entry name" value="NrdB"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF47240">
+    <property type="entry name" value="SSF47240"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="TIGRFAMs" id="TIGR04171">
+    <property type="entry name" value="RNR_1b_NrdF"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="inferred from homology"/>
+  <keyword evidence="4" id="KW-0215">Deoxyribonucleotide synthesis</keyword>
+  <keyword evidence="4 6" id="KW-0408">Iron</keyword>
+  <keyword evidence="4 6" id="KW-0479">Metal-binding</keyword>
+  <keyword evidence="4 7" id="KW-0560">Oxidoreductase</keyword>
+  <feature type="active site" evidence="5">
+    <location>
+      <position position="104"/>
+    </location>
+  </feature>
+  <feature type="binding site" evidence="6">
+    <location>
+      <position position="66"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>1</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="6">
+    <location>
+      <position position="97"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>2</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="6">
+    <location>
+      <position position="97"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>1</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="6">
+    <location>
+      <position position="100"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>1</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="6">
+    <location>
+      <position position="157"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>2</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="6">
+    <location>
+      <position position="191"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>2</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="6">
+    <location>
+      <position position="194"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>2</label>
+    </ligand>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="ARBA" id="ARBA00005160"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="2">
+    <source>
+      <dbReference type="ARBA" id="ARBA00009303"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="3">
+    <source>
+      <dbReference type="ARBA" id="ARBA00011209"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="4">
+    <source>
+      <dbReference type="PIRNR" id="PIRNR000355"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="5">
+    <source>
+      <dbReference type="PIRSR" id="PIRSR000355-1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="6">
+    <source>
+      <dbReference type="PIRSR" id="PIRSR000355-2"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="7">
+    <source>
+      <dbReference type="EMBL" id="EUC82451.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="8">
+    <source>
+      <dbReference type="Proteomes" id="UP000022386"/>
+    </source>
+  </evidence>
+  <sequence length="320" mass="36988" checksum="D2AF62133F913DAB" modified="2014-06-11" version="1">METYYKAINWNAIEDVIDKSTWEKLTEQFWLDTRIPLSNDLDDWRKLSNKEKDLVGKVFGGLTLLDTMQSETGVQALRSDIRTPHEEAVFNNIQFMESVHAKSYSSIFSTLNTKAEIEEIFEWTNTNPYLQRKAEIINEIYLNGSPLEKKVASVFLETFLFYSGFFTPLYYLGNNKLANVAEIIKLIIRDESVHGTYIGYKFQLGFNELPEEEQEKLKEWMYDLLYTLYENEEGYTESLYDGVGWTEEVKTFLRYNANKALMNLGQDPLFPDSADDVNPIVMNGISTGTSNHDFFSQVGNGYLLGEVEAMQDDDYNYGLD</sequence>
+</entry>
+<entry dataset="TrEMBL" created="2014-06-11" modified="2022-08-03" version="26" xmlns="http://uniprot.org/uniprot">
+  <accession>X8KG31</accession>
+  <name>X8KG31_9STRE</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="4">Putative DNA protection during starvation protein</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="4" type="ORF">HMPREF1516_0422</name>
+  </gene>
+  <organism evidence="4 5">
+    <name type="scientific">Streptococcus sp. CM6</name>
+    <dbReference type="NCBI Taxonomy" id="936580"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Firmicutes</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Streptococcaceae</taxon>
+      <taxon>Streptococcus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="4 5" key="1">
+    <citation type="submission" date="2014-01" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Durkin A.S."/>
+        <person name="McCorrison J."/>
+        <person name="Torralba M."/>
+        <person name="Gillis M."/>
+        <person name="Haft D.H."/>
+        <person name="Methe B."/>
+        <person name="Sutton G."/>
+        <person name="Nelson K.E."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="4 5">CM6</strain>
+    </source>
+  </reference>
+  <comment type="similarity">
+    <text evidence="1 2">Belongs to the Dps family.</text>
+  </comment>
+  <comment type="caution">
+    <text evidence="4">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="JATS01000018">
+    <property type="protein sequence ID" value="EUC81694.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_000229898.1">
+    <property type="nucleotide sequence ID" value="NZ_JATS01000018.1"/>
+  </dbReference>
+  <dbReference type="STRING" id="936580.HMPREF1516_0422"/>
+  <dbReference type="EnsemblBacteria" id="EUC81694">
+    <property type="protein sequence ID" value="EUC81694"/>
+    <property type="gene ID" value="HMPREF1516_0422"/>
+  </dbReference>
+  <dbReference type="PATRIC" id="fig|936580.3.peg.1006"/>
+  <dbReference type="eggNOG" id="COG0783">
+    <property type="taxonomic scope" value="Bacteria"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000022386">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0008199">
+    <property type="term" value="F:ferric iron binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd01043">
+    <property type="entry name" value="DPS"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.20.1260.10">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR002177">
+    <property type="entry name" value="DPS_DNA-bd"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR012347">
+    <property type="entry name" value="Ferritin-like"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR009078">
+    <property type="entry name" value="Ferritin-like_SF"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR008331">
+    <property type="entry name" value="Ferritin_DPS_dom"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR42932">
+    <property type="entry name" value="PTHR42932"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF00210">
+    <property type="entry name" value="Ferritin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PIRSF" id="PIRSF005900">
+    <property type="entry name" value="Dps"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PRINTS" id="PR01346">
+    <property type="entry name" value="HELNAPAPROT"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF47240">
+    <property type="entry name" value="SSF47240"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="inferred from homology"/>
+  <feature type="domain" description="Ferritin" evidence="3">
+    <location>
+      <begin position="29"/>
+      <end position="169"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="ARBA" id="ARBA00009497"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="2">
+    <source>
+      <dbReference type="RuleBase" id="RU003875"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000259" key="3">
+    <source>
+      <dbReference type="Pfam" id="PF00210"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="4">
+    <source>
+      <dbReference type="EMBL" id="EUC81694.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="5">
+    <source>
+      <dbReference type="Proteomes" id="UP000022386"/>
+    </source>
+  </evidence>
+  <sequence length="172" mass="19534" checksum="535EA9DBBF1006E7" modified="2014-06-11" version="1">MVELKKEAVKDVTTLSKTAPVALAKTREVLNQAVADLYVAHIALHQVHWYMRGRGFMVWHPKMDEYMDSLDGYLDEISERLITLGGKPYSTLTEFLQHSEIEEEEGEFRNVEESLERVLAIYRYLIALFQKALDVTDEEGDDVTNDIFVGAKAELEKTVWMVAAELGQAPGL</sequence>
+</entry>
+<entry dataset="TrEMBL" created="2014-06-11" modified="2022-08-03" version="25" xmlns="http://uniprot.org/uniprot">
+  <accession>X8KB95</accession>
+  <name>X8KB95_9STRE</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="4">Putative DNA protection during starvation protein</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="4" type="ORF">HMPREF1518_0525</name>
+  </gene>
+  <organism evidence="4 5">
+    <name type="scientific">Streptococcus sp. SR1</name>
+    <dbReference type="NCBI Taxonomy" id="1161416"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Firmicutes</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Streptococcaceae</taxon>
+      <taxon>Streptococcus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="4 5" key="1">
+    <citation type="submission" date="2014-01" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Durkin A.S."/>
+        <person name="McCorrison J."/>
+        <person name="Torralba M."/>
+        <person name="Gillis M."/>
+        <person name="Haft D.H."/>
+        <person name="Methe B."/>
+        <person name="Sutton G."/>
+        <person name="Nelson K.E."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="4 5">SR1</strain>
+    </source>
+  </reference>
+  <comment type="similarity">
+    <text evidence="1 2">Belongs to the Dps family.</text>
+  </comment>
+  <comment type="caution">
+    <text evidence="4">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="JATR01000002">
+    <property type="protein sequence ID" value="EUC80755.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_033583491.1">
+    <property type="nucleotide sequence ID" value="NZ_JATR01000002.1"/>
+  </dbReference>
+  <dbReference type="EnsemblBacteria" id="EUC80755">
+    <property type="protein sequence ID" value="EUC80755"/>
+    <property type="gene ID" value="HMPREF1518_0525"/>
+  </dbReference>
+  <dbReference type="PATRIC" id="fig|1161416.3.peg.143"/>
+  <dbReference type="Proteomes" id="UP000022050">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0008199">
+    <property type="term" value="F:ferric iron binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd01043">
+    <property type="entry name" value="DPS"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.20.1260.10">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR002177">
+    <property type="entry name" value="DPS_DNA-bd"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR012347">
+    <property type="entry name" value="Ferritin-like"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR009078">
+    <property type="entry name" value="Ferritin-like_SF"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR008331">
+    <property type="entry name" value="Ferritin_DPS_dom"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR42932">
+    <property type="entry name" value="PTHR42932"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF00210">
+    <property type="entry name" value="Ferritin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PIRSF" id="PIRSF005900">
+    <property type="entry name" value="Dps"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PRINTS" id="PR01346">
+    <property type="entry name" value="HELNAPAPROT"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF47240">
+    <property type="entry name" value="SSF47240"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="inferred from homology"/>
+  <feature type="domain" description="Ferritin" evidence="3">
+    <location>
+      <begin position="28"/>
+      <end position="169"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="ARBA" id="ARBA00009497"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="2">
+    <source>
+      <dbReference type="RuleBase" id="RU003875"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000259" key="3">
+    <source>
+      <dbReference type="Pfam" id="PF00210"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="4">
+    <source>
+      <dbReference type="EMBL" id="EUC80755.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="5">
+    <source>
+      <dbReference type="Proteomes" id="UP000022050"/>
+    </source>
+  </evidence>
+  <sequence length="172" mass="19483" checksum="F2CD4599B39DB02E" modified="2014-06-11" version="1">MVELKKEAVKDVTTLSKTAPVALAKTKEVLNQAVADLYVAHIALHQVHWYMRGRGFLVWHPKMDEYMDSLDGYLDEISERLITLGGKPYSTLTEFLQHSEIEEEEGEFRNVEESLERVLAIYHYLIALFQKALDVTDEEGDDVTNDIFVGAKAELEKTVWMLAAELGQAPGL</sequence>
+</entry>
+<entry dataset="TrEMBL" created="2014-06-11" modified="2022-10-12" version="34" xmlns="http://uniprot.org/uniprot">
+  <accession>X8KA52</accession>
+  <name>X8KA52_9STRE</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="4">Ribonucleoside-diphosphate reductase subunit beta</fullName>
+      <ecNumber evidence="4">1.17.4.1</ecNumber>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="7" type="primary">nrdF</name>
+    <name evidence="7" type="ORF">HMPREF1518_0871</name>
+  </gene>
+  <organism evidence="7 8">
+    <name type="scientific">Streptococcus sp. SR1</name>
+    <dbReference type="NCBI Taxonomy" id="1161416"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Firmicutes</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Streptococcaceae</taxon>
+      <taxon>Streptococcus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="7 8" key="1">
+    <citation type="submission" date="2014-01" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Durkin A.S."/>
+        <person name="McCorrison J."/>
+        <person name="Torralba M."/>
+        <person name="Gillis M."/>
+        <person name="Haft D.H."/>
+        <person name="Methe B."/>
+        <person name="Sutton G."/>
+        <person name="Nelson K.E."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="7 8">SR1</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text evidence="4">Provides the precursors necessary for DNA synthesis. Catalyzes the biosynthesis of deoxyribonucleotides from the corresponding ribonucleotides.</text>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="4">
+      <text>[thioredoxin]-disulfide + a 2'-deoxyribonucleoside 5'-diphosphate + H2O = [thioredoxin]-dithiol + a ribonucleoside 5'-diphosphate</text>
+      <dbReference type="Rhea" id="RHEA:23252"/>
+      <dbReference type="Rhea" id="RHEA-COMP:10698"/>
+      <dbReference type="Rhea" id="RHEA-COMP:10700"/>
+      <dbReference type="ChEBI" id="CHEBI:15377"/>
+      <dbReference type="ChEBI" id="CHEBI:29950"/>
+      <dbReference type="ChEBI" id="CHEBI:50058"/>
+      <dbReference type="ChEBI" id="CHEBI:57930"/>
+      <dbReference type="ChEBI" id="CHEBI:73316"/>
+      <dbReference type="EC" id="1.17.4.1"/>
+    </reaction>
+  </comment>
+  <comment type="cofactor">
+    <cofactor evidence="4 6">
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+    </cofactor>
+    <text evidence="4 6">Binds 2 iron ions per subunit.</text>
+  </comment>
+  <comment type="pathway">
+    <text evidence="1 4">Genetic information processing; DNA replication.</text>
+  </comment>
+  <comment type="subunit">
+    <text evidence="3">Tetramer of two alpha and two beta subunits.</text>
+  </comment>
+  <comment type="similarity">
+    <text evidence="2 4">Belongs to the ribonucleoside diphosphate reductase small chain family.</text>
+  </comment>
+  <comment type="caution">
+    <text evidence="7">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EC" id="1.17.4.1" evidence="4"/>
+  <dbReference type="EMBL" id="JATR01000013">
+    <property type="protein sequence ID" value="EUC80317.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_000451378.1">
+    <property type="nucleotide sequence ID" value="NZ_JATR01000013.1"/>
+  </dbReference>
+  <dbReference type="EnsemblBacteria" id="EUC80317">
+    <property type="protein sequence ID" value="EUC80317"/>
+    <property type="gene ID" value="HMPREF1518_0871"/>
+  </dbReference>
+  <dbReference type="GeneID" id="49599667"/>
+  <dbReference type="PATRIC" id="fig|1161416.3.peg.697"/>
+  <dbReference type="UniPathway" id="UPA00326"/>
+  <dbReference type="Proteomes" id="UP000022050">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005971">
+    <property type="term" value="C:ribonucleoside-diphosphate reductase complex"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0046872">
+    <property type="term" value="F:metal ion binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0004748">
+    <property type="term" value="F:ribonucleoside-diphosphate reductase activity, thioredoxin disulfide as acceptor"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-EC"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0009263">
+    <property type="term" value="P:deoxyribonucleotide biosynthetic process"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006260">
+    <property type="term" value="P:DNA replication"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-UniPathway"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd01049">
+    <property type="entry name" value="RNRR2"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.10.620.20">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR009078">
+    <property type="entry name" value="Ferritin-like_SF"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR012348">
+    <property type="entry name" value="RNR-like"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR026494">
+    <property type="entry name" value="RNR_NrdF-like"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR033909">
+    <property type="entry name" value="RNR_small"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR000358">
+    <property type="entry name" value="RNR_small_fam"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR23409">
+    <property type="entry name" value="PTHR23409"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF00268">
+    <property type="entry name" value="Ribonuc_red_sm"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PIRSF" id="PIRSF000355">
+    <property type="entry name" value="NrdB"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF47240">
+    <property type="entry name" value="SSF47240"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="TIGRFAMs" id="TIGR04171">
+    <property type="entry name" value="RNR_1b_NrdF"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="inferred from homology"/>
+  <keyword evidence="4" id="KW-0215">Deoxyribonucleotide synthesis</keyword>
+  <keyword evidence="4 6" id="KW-0408">Iron</keyword>
+  <keyword evidence="4 6" id="KW-0479">Metal-binding</keyword>
+  <keyword evidence="4 7" id="KW-0560">Oxidoreductase</keyword>
+  <feature type="active site" evidence="5">
+    <location>
+      <position position="104"/>
+    </location>
+  </feature>
+  <feature type="binding site" evidence="6">
+    <location>
+      <position position="66"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>1</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="6">
+    <location>
+      <position position="97"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>2</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="6">
+    <location>
+      <position position="97"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>1</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="6">
+    <location>
+      <position position="100"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>1</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="6">
+    <location>
+      <position position="157"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>2</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="6">
+    <location>
+      <position position="191"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>2</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="6">
+    <location>
+      <position position="194"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>2</label>
+    </ligand>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="ARBA" id="ARBA00005160"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="2">
+    <source>
+      <dbReference type="ARBA" id="ARBA00009303"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="3">
+    <source>
+      <dbReference type="ARBA" id="ARBA00011209"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="4">
+    <source>
+      <dbReference type="PIRNR" id="PIRNR000355"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="5">
+    <source>
+      <dbReference type="PIRSR" id="PIRSR000355-1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="6">
+    <source>
+      <dbReference type="PIRSR" id="PIRSR000355-2"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="7">
+    <source>
+      <dbReference type="EMBL" id="EUC80317.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="8">
+    <source>
+      <dbReference type="Proteomes" id="UP000022050"/>
+    </source>
+  </evidence>
+  <sequence length="320" mass="37002" checksum="27AF62133F913DAA" modified="2014-06-11" version="1">METYYKAINWNAIEDVIDKSTWEKLTEQFWLDTRIPLSNDLDDWRKLSNKEKDLVGKVFGGLTLLDTMQSETGVQALRSDIRTPHEEAVFNNIQFMESVHAKSYSSIFSTLNTKAEIEEIFEWTNTNPYLQRKAEIINEIYLNGSPLEKKVASVFLETFLFYSGFFTPLYYLGNNKLANVAEIIKLIIRDESVHGTYIGYKFQLGFNELPEEEQEKLKEWMYDLLYTLYENEEGYTESLYDGVGWTEEVKTFLRYNANKALMNLGQDPLFPDSADDVNPIVMNGISTGTSNHDFFSQVGNGYLLGEVEAMQDEDYNYGLD</sequence>
+</entry>
+<entry dataset="TrEMBL" created="2014-06-11" modified="2022-10-12" version="40" xmlns="http://uniprot.org/uniprot">
+  <accession>X8K6T5</accession>
+  <name>X8K6T5_9FIRM</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="3">Ribonucleoside-diphosphate reductase subunit beta</fullName>
+      <ecNumber evidence="3">1.17.4.1</ecNumber>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="6" type="ORF">HMPREF9092_0012</name>
+  </gene>
+  <organism evidence="6 7">
+    <name type="scientific">Eubacterium sulci ATCC 35585</name>
+    <dbReference type="NCBI Taxonomy" id="888727"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Firmicutes</taxon>
+      <taxon>Clostridia</taxon>
+      <taxon>Eubacteriales</taxon>
+      <taxon>Eubacteriales Family XIII. Incertae Sedis</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="6 7" key="1">
+    <citation type="submission" date="2014-01" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Durkin A.S."/>
+        <person name="McCorrison J."/>
+        <person name="Torralba M."/>
+        <person name="Gillis M."/>
+        <person name="Haft D.H."/>
+        <person name="Methe B."/>
+        <person name="Sutton G."/>
+        <person name="Nelson K.E."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="6 7">ATCC 35585</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text evidence="3">Provides the precursors necessary for DNA synthesis. Catalyzes the biosynthesis of deoxyribonucleotides from the corresponding ribonucleotides.</text>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="3">
+      <text>[thioredoxin]-disulfide + a 2'-deoxyribonucleoside 5'-diphosphate + H2O = [thioredoxin]-dithiol + a ribonucleoside 5'-diphosphate</text>
+      <dbReference type="Rhea" id="RHEA:23252"/>
+      <dbReference type="Rhea" id="RHEA-COMP:10698"/>
+      <dbReference type="Rhea" id="RHEA-COMP:10700"/>
+      <dbReference type="ChEBI" id="CHEBI:15377"/>
+      <dbReference type="ChEBI" id="CHEBI:29950"/>
+      <dbReference type="ChEBI" id="CHEBI:50058"/>
+      <dbReference type="ChEBI" id="CHEBI:57930"/>
+      <dbReference type="ChEBI" id="CHEBI:73316"/>
+      <dbReference type="EC" id="1.17.4.1"/>
+    </reaction>
+  </comment>
+  <comment type="cofactor">
+    <cofactor evidence="3 5">
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+    </cofactor>
+    <text evidence="3 5">Binds 2 iron ions per subunit.</text>
+  </comment>
+  <comment type="pathway">
+    <text evidence="1 3">Genetic information processing; DNA replication.</text>
+  </comment>
+  <comment type="similarity">
+    <text evidence="2 3">Belongs to the ribonucleoside diphosphate reductase small chain family.</text>
+  </comment>
+  <comment type="caution">
+    <text evidence="6">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EC" id="1.17.4.1" evidence="3"/>
+  <dbReference type="EMBL" id="JATQ01000005">
+    <property type="protein sequence ID" value="EUC78341.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_034811554.1">
+    <property type="nucleotide sequence ID" value="NZ_JATQ01000005.1"/>
+  </dbReference>
+  <dbReference type="STRING" id="888727.HMPREF9092_0012"/>
+  <dbReference type="EnsemblBacteria" id="EUC78341">
+    <property type="protein sequence ID" value="EUC78341"/>
+    <property type="gene ID" value="HMPREF9092_0012"/>
+  </dbReference>
+  <dbReference type="KEGG" id="euu:ADJ67_04705"/>
+  <dbReference type="PATRIC" id="fig|888727.3.peg.440"/>
+  <dbReference type="eggNOG" id="COG0208">
+    <property type="taxonomic scope" value="Bacteria"/>
+  </dbReference>
+  <dbReference type="OrthoDB" id="1384440at2"/>
+  <dbReference type="UniPathway" id="UPA00326"/>
+  <dbReference type="Proteomes" id="UP000020233">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0046872">
+    <property type="term" value="F:metal ion binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0004748">
+    <property type="term" value="F:ribonucleoside-diphosphate reductase activity, thioredoxin disulfide as acceptor"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-EC"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0009263">
+    <property type="term" value="P:deoxyribonucleotide biosynthetic process"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006260">
+    <property type="term" value="P:DNA replication"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-UniPathway"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd01049">
+    <property type="entry name" value="RNRR2"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.10.620.20">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR009078">
+    <property type="entry name" value="Ferritin-like_SF"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR012348">
+    <property type="entry name" value="RNR-like"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR033909">
+    <property type="entry name" value="RNR_small"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR030475">
+    <property type="entry name" value="RNR_small_AS"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR000358">
+    <property type="entry name" value="RNR_small_fam"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR23409">
+    <property type="entry name" value="PTHR23409"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF00268">
+    <property type="entry name" value="Ribonuc_red_sm"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PIRSF" id="PIRSF000355">
+    <property type="entry name" value="NrdB"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF47240">
+    <property type="entry name" value="SSF47240"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS00368">
+    <property type="entry name" value="RIBORED_SMALL"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="inferred from homology"/>
+  <keyword evidence="3" id="KW-0215">Deoxyribonucleotide synthesis</keyword>
+  <keyword evidence="3 5" id="KW-0408">Iron</keyword>
+  <keyword evidence="3 5" id="KW-0479">Metal-binding</keyword>
+  <keyword evidence="3 6" id="KW-0560">Oxidoreductase</keyword>
+  <feature type="active site" evidence="4">
+    <location>
+      <position position="128"/>
+    </location>
+  </feature>
+  <feature type="binding site" evidence="5">
+    <location>
+      <position position="91"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>1</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="5">
+    <location>
+      <position position="121"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>1</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="5">
+    <location>
+      <position position="121"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>2</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="5">
+    <location>
+      <position position="124"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>1</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="5">
+    <location>
+      <position position="188"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>2</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="5">
+    <location>
+      <position position="222"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>2</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="5">
+    <location>
+      <position position="225"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <label>2</label>
+    </ligand>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="ARBA" id="ARBA00005160"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="2">
+    <source>
+      <dbReference type="ARBA" id="ARBA00009303"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="3">
+    <source>
+      <dbReference type="PIRNR" id="PIRNR000355"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="4">
+    <source>
+      <dbReference type="PIRSR" id="PIRSR000355-1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="5">
+    <source>
+      <dbReference type="PIRSR" id="PIRSR000355-2"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="6">
+    <source>
+      <dbReference type="EMBL" id="EUC78341.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="7">
+    <source>
+      <dbReference type="Proteomes" id="UP000020233"/>
+    </source>
+  </evidence>
+  <sequence length="348" mass="41036" checksum="E9D7EA7AD7221149" modified="2014-06-11" version="1">MSDMIMKKPLFNPEGDIDVRNRSLINFDTTNINDFNNMKYEWVSDWYRQAMNNFWIPEEINMHQDKSDYPKLLPAERTAYDKILSFLVYLDSVQSANLPNISQYVTANEINLCLSIQTFQECIHSQSYSYMLDTICNPTERNDILYQWKTDEHLLNRNRFIGDLYNEFVDNPNKDSFLRVCIANFILEGIYFYSGFMFFYNLGRNGKMPGSVQEIRYINRDENTHLWLFRNMLMELRKEEPGLFNDENLAVLREMIMEGVDQEIAWGKYVIGNEIPGLNEKMVEDYIKYLGNQRYSSLGLGTLYEGYEEEPESMRWVSQYADANMVKTDFFEAKSTAYAKSSAIEDDL</sequence>
+</entry>
+<entry dataset="TrEMBL" created="2014-06-11" modified="2022-10-12" version="39" xmlns="http://uniprot.org/uniprot">
+  <accession>X8K5H3</accession>
+  <name>X8K5H3_9FIRM</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="4">Ferritin</fullName>
+      <ecNumber evidence="4">1.16.3.2</ecNumber>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="6" type="ORF">HMPREF9092_1359</name>
+  </gene>
+  <organism evidence="6 7">
+    <name type="scientific">Eubacterium sulci ATCC 35585</name>
+    <dbReference type="NCBI Taxonomy" id="888727"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Firmicutes</taxon>
+      <taxon>Clostridia</taxon>
+      <taxon>Eubacteriales</taxon>
+      <taxon>Eubacteriales Family XIII. Incertae Sedis</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="6 7" key="1">
+    <citation type="submission" date="2014-01" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Durkin A.S."/>
+        <person name="McCorrison J."/>
+        <person name="Torralba M."/>
+        <person name="Gillis M."/>
+        <person name="Haft D.H."/>
+        <person name="Methe B."/>
+        <person name="Sutton G."/>
+        <person name="Nelson K.E."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="6 7">ATCC 35585</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text evidence="2 4">Iron-storage protein.</text>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="1 4">
+      <text>4 Fe(2+) + 6 H2O + O2 = 12 H(+) + 4 iron(III) oxide-hydroxide</text>
+      <dbReference type="Rhea" id="RHEA:11972"/>
+      <dbReference type="ChEBI" id="CHEBI:15377"/>
+      <dbReference type="ChEBI" id="CHEBI:15378"/>
+      <dbReference type="ChEBI" id="CHEBI:15379"/>
+      <dbReference type="ChEBI" id="CHEBI:29033"/>
+      <dbReference type="ChEBI" id="CHEBI:78619"/>
+      <dbReference type="EC" id="1.16.3.2"/>
+    </reaction>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="4">Cytoplasm</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="similarity">
+    <text evidence="3 4">Belongs to the ferritin family. Prokaryotic subfamily.</text>
+  </comment>
+  <comment type="caution">
+    <text evidence="6">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EC" id="1.16.3.2" evidence="4"/>
+  <dbReference type="EMBL" id="JATQ01000003">
+    <property type="protein sequence ID" value="EUC78667.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_034811129.1">
+    <property type="nucleotide sequence ID" value="NZ_JATQ01000003.1"/>
+  </dbReference>
+  <dbReference type="STRING" id="888727.HMPREF9092_1359"/>
+  <dbReference type="EnsemblBacteria" id="EUC78667">
+    <property type="protein sequence ID" value="EUC78667"/>
+    <property type="gene ID" value="HMPREF9092_1359"/>
+  </dbReference>
+  <dbReference type="KEGG" id="euu:ADJ67_03210"/>
+  <dbReference type="PATRIC" id="fig|888727.3.peg.224"/>
+  <dbReference type="eggNOG" id="COG1528">
+    <property type="taxonomic scope" value="Bacteria"/>
+  </dbReference>
+  <dbReference type="OrthoDB" id="1890523at2"/>
+  <dbReference type="Proteomes" id="UP000020233">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005737">
+    <property type="term" value="C:cytoplasm"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0008199">
+    <property type="term" value="F:ferric iron binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006879">
+    <property type="term" value="P:cellular iron ion homeostasis"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006826">
+    <property type="term" value="P:iron ion transport"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd01055">
+    <property type="entry name" value="Nonheme_Ferritin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.20.1260.10">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR001519">
+    <property type="entry name" value="Ferritin"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR012347">
+    <property type="entry name" value="Ferritin-like"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR009040">
+    <property type="entry name" value="Ferritin-like_diiron"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR009078">
+    <property type="entry name" value="Ferritin-like_SF"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR008331">
+    <property type="entry name" value="Ferritin_DPS_dom"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR041719">
+    <property type="entry name" value="Ferritin_prok"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR11431">
+    <property type="entry name" value="PTHR11431"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF00210">
+    <property type="entry name" value="Ferritin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF47240">
+    <property type="entry name" value="SSF47240"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS50905">
+    <property type="entry name" value="FERRITIN_LIKE"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="inferred from homology"/>
+  <keyword evidence="4" id="KW-0963">Cytoplasm</keyword>
+  <keyword evidence="4" id="KW-0408">Iron</keyword>
+  <keyword evidence="4" id="KW-0409">Iron storage</keyword>
+  <keyword evidence="4" id="KW-0479">Metal-binding</keyword>
+  <feature type="domain" description="Ferritin-like diiron" evidence="5">
+    <location>
+      <begin position="1"/>
+      <end position="145"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="ARBA" id="ARBA00001846"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="2">
+    <source>
+      <dbReference type="ARBA" id="ARBA00002485"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="3">
+    <source>
+      <dbReference type="ARBA" id="ARBA00006950"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="4">
+    <source>
+      <dbReference type="RuleBase" id="RU361145"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000259" key="5">
+    <source>
+      <dbReference type="PROSITE" id="PS50905"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="6">
+    <source>
+      <dbReference type="EMBL" id="EUC78667.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="7">
+    <source>
+      <dbReference type="Proteomes" id="UP000020233"/>
+    </source>
+  </evidence>
+  <sequence length="170" mass="20246" checksum="BB0560D5FC89582F" modified="2014-06-11" version="1">MLDKKVTDLLNKQVNAEFYSAYLYLDFANYYHEQGLDGFANWYEVQAKEERDHAMLIRTYILDNGERMIFDAIENPTQEYDGMDAPLRLALQHERFITDLINKIYKESHDVDDYRTMQFFDWFVKEQLEEEKNADDLVKKFELFGRDPKGLYALNQELLGRQYTAPTVAE</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>
